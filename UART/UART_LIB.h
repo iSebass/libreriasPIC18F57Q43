@@ -1,35 +1,36 @@
-#ifndef UART_LIB_H
-#define	UART_LIB_H
+/* 
+ * File:   UART.h
+ * Author: iSebas
+ *
+ * Created on 30 de marzo de 2024, 07:44 PM
+ */
+
+#ifndef UART_H
+#define	UART_H
+
 
 #include <stdint.h>
 #include <xc.h>
 #include <stdio.h>
-#include "../config.h"
+#include "config.h"
 
 
-#define ASYNCHRONOUS8BITS                     0
-#define ASYNCHRONOUS7BITS                     1
-#define ASYNCHRONOUS8BITSWITH9_ODD_PARITY     2
-#define ASYNCHRONOUS8BITSWITH9_EVENT_PARITY   3
-#define ASYNCHRONOUS9BITS                     4
-#define DALICONTROLDEVICE                     8
-#define DALICONTROLGEAR                       9
-#define DMX                                   10
-#define LINCLIENTONLY                         11
-#define LINHOST_CLIENT                        12
+#define BAUDRATE      9600
+#define HIGHSPEED
 
-#define HIGHSPEED    1
-#define LOWSPEED     0    
+#ifdef HIGHSPEED
+    #define VALBRGH      (uint16_t)( (_XTAL_FREQ/ (4.0*BAUDRATE) )-1 )
+#endif
 
-#define UART1_MODE   ASYNCHRONOUS8BITS  
-#define BAUDRATEMODE HIGHSPEED
-
-
-void UART1_Init(long baudrate);
+#ifdef LOWSPEED
+    #define VALBRGH      (uint16_t)( (_XTAL_FREQ/ (16.0*BAUDRATE) )-1 )
+#endif
+void UART1_Init(void);
 void UART1_Write(char data);
 void UART1_Text(char *str);
 void putch(char txData);
 char UART1_Read(void);
 char UART1_DATA_READY(void);
 
-#endif	/* UART_LIB_H */
+#endif	/* UART1_H */
+
