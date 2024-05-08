@@ -1,0 +1,333 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"12 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\i2c.c
+[v _I2C_Init_Master I2C_Init_Master `(v  1 e 1 0 ]
+"27
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"34
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"64
+[v _I2C_Write I2C_Write `(s  1 e 2 0 ]
+"21 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\OLED_Text.c
+[v _main main `(v  1 e 1 0 ]
+"391 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\ssd1306_oled.c
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+"446
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+"465
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+"504
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+"523
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+"536
+[v _OLED_Line OLED_Line `(v  1 e 1 0 ]
+"596
+[v _OLED_V_Line OLED_V_Line `(v  1 e 1 0 ]
+"612
+[v _OLED_H_Line OLED_H_Line `(v  1 e 1 0 ]
+"694
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+"767
+[v _OLED_Write_Text OLED_Write_Text `(v  1 e 1 0 ]
+"780
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+"800
+[v _width width `(uc  1 s 1 width ]
+"805
+[v _height height `(uc  1 s 1 height ]
+[s S107 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S116 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S125 . 1 `S107 1 . 1 0 `S116 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES125  1 e 1 @3987 ]
+[s S172 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4492
+[s S181 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S187 . 1 `S172 1 . 1 0 `S181 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES187  1 e 1 @3998 ]
+[s S24 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6606
+[s S27 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S34 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S39 . 1 `S24 1 . 1 0 `S27 1 . 1 0 `S34 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES39  1 e 1 @4033 ]
+"6806
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S151 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6823
+[u S160 . 1 `S151 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES160  1 e 1 @4037 ]
+"6868
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"6938
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"7186
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"7193
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"3 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\ssd1306_oled.c
+[v _FONT_1 FONT_1 `C[581]uc  1 e 581 0 ]
+"104
+[v _FONT_2 FONT_2 `C[1524]uc  1 e 1524 0 ]
+"203
+[v _FONT_3 FONT_3 `C[3044]uc  1 e 3044 0 ]
+[s S242 _Current_Font_s 7 `*.25Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"307
+[v _cfont cfont `S242  1 s 7 cfont ]
+"308
+[v _buffer buffer `[1024]uc  1 s 1024 buffer ]
+"21 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\OLED_Text.c
+[v _main main `(v  1 e 1 0 ]
+{
+"48
+} 0
+"767 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\ssd1306_oled.c
+[v _OLED_Write_Text OLED_Write_Text `(v  1 e 1 0 ]
+{
+"770
+[v OLED_Write_Text@length length `uc  1 a 1 52 ]
+"769
+[v OLED_Write_Text@cnt cnt `uc  1 a 1 51 ]
+"767
+[v OLED_Write_Text@x x `s  1 p 2 43 ]
+[v OLED_Write_Text@y y `s  1 p 2 45 ]
+[v OLED_Write_Text@text text `*.25uc  1 p 2 47 ]
+"778
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.25Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.25Cuc  1 p 2 0 ]
+"12
+} 0
+"694 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\ssd1306_oled.c
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+{
+"698
+[v OLED_Write@cnt cnt `us  1 a 2 40 ]
+"697
+[v OLED_Write@rowcnt rowcnt `us  1 a 2 38 ]
+"701
+[v OLED_Write@cy cy `s  1 a 2 36 ]
+[v OLED_Write@cx cx `s  1 a 2 34 ]
+"696
+[v OLED_Write@font_idx font_idx `us  1 a 2 32 ]
+"702
+[v OLED_Write@cbit cbit `s  1 a 2 30 ]
+"701
+[v OLED_Write@cbyte cbyte `s  1 a 2 28 ]
+"700
+[v OLED_Write@temp temp `us  1 a 2 26 ]
+"699
+[v OLED_Write@b b `uc  1 a 1 42 ]
+"694
+[v OLED_Write@x x `s  1 p 2 18 ]
+[v OLED_Write@y y `s  1 p 2 20 ]
+[v OLED_Write@value value `uc  1 p 1 22 ]
+"765
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 12 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 8 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 10 ]
+"53
+} 0
+"523 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\ssd1306_oled.c
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+{
+[v OLED_DrawPixel@x x `s  1 p 2 8 ]
+[v OLED_DrawPixel@y y `s  1 p 2 10 ]
+[v OLED_DrawPixel@color color `uc  1 p 1 12 ]
+"534
+} 0
+"800
+[v _width width `(uc  1 s 1 width ]
+{
+"803
+} 0
+"805
+[v _height height `(uc  1 s 1 height ]
+{
+"808
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"446 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\ssd1306_oled.c
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+{
+[v OLED_SetFont@font font `*.25Cuc  1 p 2 0 ]
+"454
+} 0
+"391
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+{
+"434
+} 0
+"465
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+{
+"467
+[v OLED_Update@i i `us  1 a 2 3 ]
+"468
+[v OLED_Update@x x `uc  1 a 1 2 ]
+"496
+} 0
+"780
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+{
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+[v ssd1306_command@command command `uc  1 a 1 1 ]
+"788
+} 0
+"64 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\i2c.c
+[v _I2C_Write I2C_Write `(s  1 e 2 0 ]
+{
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+"66
+[v I2C_Write@data data `uc  1 a 1 0 ]
+"71
+} 0
+"34
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"39
+} 0
+"27
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"32
+} 0
+"504 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\ssd1306_oled.c
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+{
+"507
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 10 ]
+"7
+[v memset@k k `ui  1 a 2 8 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"12 C:\Users\CQ43\MPLABXProjects\Curso PIC XC8\41-46\OLED_Text.X\i2c.c
+[v _I2C_Init_Master I2C_Init_Master `(v  1 e 1 0 ]
+{
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 wreg ]
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 wreg ]
+"14
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 0 ]
+"25
+} 0

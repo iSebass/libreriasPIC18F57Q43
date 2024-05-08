@@ -1,0 +1,945 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45Q10 ]
+[d frameptr 4065 ]
+"67 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/examples/i2c2_master_example.c
+[e E358 . `uc
+I2C2_NOERR 0
+I2C2_BUSY 1
+I2C2_FAIL 2
+]
+"68
+[e E363 . `uc
+I2C2_STOP 1
+I2C2_RESTART_READ 2
+I2C2_RESTART_WRITE 3
+I2C2_CONTINUE 4
+I2C2_RESET_LINK 5
+]
+"146 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/i2c2_master.c
+[e E13313 . `uc
+I2C2_IDLE 0
+I2C2_SEND_ADR_READ 1
+I2C2_SEND_ADR_WRITE 2
+I2C2_TX 3
+I2C2_RX 4
+I2C2_RCEN 5
+I2C2_TX_EMPTY 6
+I2C2_SEND_RESTART_READ 7
+I2C2_SEND_RESTART_WRITE 8
+I2C2_SEND_RESTART 9
+I2C2_SEND_STOP 10
+I2C2_RX_ACK 11
+I2C2_RX_NACK_STOP 12
+I2C2_RX_NACK_RESTART 13
+I2C2_RESET 14
+I2C2_ADDRESS_NACK 15
+]
+"165
+[e E363 . `uc
+I2C2_STOP 1
+I2C2_RESTART_READ 2
+I2C2_RESTART_WRITE 3
+I2C2_CONTINUE 4
+I2C2_RESET_LINK 5
+]
+[e E358 . `uc
+I2C2_NOERR 0
+I2C2_BUSY 1
+I2C2_FAIL 2
+]
+"191
+[e E13331 . `uc
+I2C2_DATA_COMPLETE 0
+I2C2_WRITE_COLLISION 1
+I2C2_ADDR_NACK 2
+I2C2_DATA_NACK 3
+I2C2_TIMEOUT 4
+I2C2_NULL 5
+]
+"85 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\main.c
+[e E13352 . `uc
+Black 0
+White 1
+]
+"121 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\ssd1306.c
+[e E12927 . `uc
+Black 0
+White 1
+]
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"77 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"111 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/examples/i2c2_master_example.c
+[v _I2C2_WriteNBytes I2C2_WriteNBytes `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+"167 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/i2c2_master.c
+[v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C2_Open I2C2_Open `(E358  1 e 1 0 ]
+"209
+[v _I2C2_Close I2C2_Close `(E358  1 e 1 0 ]
+"224
+[v _I2C2_MasterOperation I2C2_MasterOperation `(E358  1 e 1 0 ]
+"246
+[v _I2C2_MasterRead I2C2_MasterRead `(E358  1 e 1 0 ]
+"251
+[v _I2C2_MasterWrite I2C2_MasterWrite `(E358  1 e 1 0 ]
+"263
+[v _I2C2_SetBuffer I2C2_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C2_SetDataCompleteCallback I2C2_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C2_SetAddressNackCallback I2C2_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C2_SetCallback I2C2_SetCallback `(v  1 s 1 I2C2_SetCallback ]
+"312
+[v _I2C2_Poller I2C2_Poller `(v  1 s 1 I2C2_Poller ]
+"321
+[v _I2C2_MasterFsm I2C2_MasterFsm `T(v  1 s 1 I2C2_MasterFsm ]
+"333
+[v _I2C2_DO_IDLE I2C2_DO_IDLE `(E13313  1 s 1 I2C2_DO_IDLE ]
+"340
+[v _I2C2_DO_SEND_ADR_READ I2C2_DO_SEND_ADR_READ `(E13313  1 s 1 I2C2_DO_SEND_ADR_READ ]
+"347
+[v _I2C2_DO_SEND_ADR_WRITE I2C2_DO_SEND_ADR_WRITE `(E13313  1 s 1 I2C2_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C2_DO_TX I2C2_DO_TX `(E13313  1 s 1 I2C2_DO_TX ]
+"378
+[v _I2C2_DO_RX I2C2_DO_RX `(E13313  1 s 1 I2C2_DO_RX ]
+"402
+[v _I2C2_DO_RCEN I2C2_DO_RCEN `(E13313  1 s 1 I2C2_DO_RCEN ]
+"409
+[v _I2C2_DO_TX_EMPTY I2C2_DO_TX_EMPTY `(E13313  1 s 1 I2C2_DO_TX_EMPTY ]
+"450
+[v _I2C2_DO_SEND_RESTART_READ I2C2_DO_SEND_RESTART_READ `(E13313  1 s 1 I2C2_DO_SEND_RESTART_READ ]
+"456
+[v _I2C2_DO_SEND_RESTART_WRITE I2C2_DO_SEND_RESTART_WRITE `(E13313  1 s 1 I2C2_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C2_DO_SEND_RESTART I2C2_DO_SEND_RESTART `(E13313  1 s 1 I2C2_DO_SEND_RESTART ]
+"469
+[v _I2C2_DO_SEND_STOP I2C2_DO_SEND_STOP `(E13313  1 s 1 I2C2_DO_SEND_STOP ]
+"475
+[v _I2C2_DO_RX_ACK I2C2_DO_RX_ACK `(E13313  1 s 1 I2C2_DO_RX_ACK ]
+"482
+[v _I2C2_DO_RX_NACK_STOP I2C2_DO_RX_NACK_STOP `(E13313  1 s 1 I2C2_DO_RX_NACK_STOP ]
+"488
+[v _I2C2_DO_RX_NACK_RESTART I2C2_DO_RX_NACK_RESTART `(E13313  1 s 1 I2C2_DO_RX_NACK_RESTART ]
+"494
+[v _I2C2_DO_RESET I2C2_DO_RESET `(E13313  1 s 1 I2C2_DO_RESET ]
+"500
+[v _I2C2_DO_ADDRESS_NACK I2C2_DO_ADDRESS_NACK `(E13313  1 s 1 I2C2_DO_ADDRESS_NACK ]
+"520
+[v _I2C2_CallbackReturnStop I2C2_CallbackReturnStop `(E363  1 e 1 0 ]
+"525
+[v _I2C2_CallbackReturnReset I2C2_CallbackReturnReset `(E363  1 e 1 0 ]
+"543
+[v _I2C2_MasterOpen I2C2_MasterOpen `T(a  1 s 1 I2C2_MasterOpen ]
+"557
+[v _I2C2_MasterClose I2C2_MasterClose `T(v  1 s 1 I2C2_MasterClose ]
+"563
+[v _I2C2_MasterGetRxData I2C2_MasterGetRxData `T(uc  1 s 1 I2C2_MasterGetRxData ]
+"568
+[v _I2C2_MasterSendTxData I2C2_MasterSendTxData `T(v  1 s 1 I2C2_MasterSendTxData ]
+"573
+[v _I2C2_MasterEnableRestart I2C2_MasterEnableRestart `T(v  1 s 1 I2C2_MasterEnableRestart ]
+"578
+[v _I2C2_MasterDisableRestart I2C2_MasterDisableRestart `T(v  1 s 1 I2C2_MasterDisableRestart ]
+"583
+[v _I2C2_MasterStartRx I2C2_MasterStartRx `T(v  1 s 1 I2C2_MasterStartRx ]
+"588
+[v _I2C2_MasterStart I2C2_MasterStart `T(v  1 s 1 I2C2_MasterStart ]
+"593
+[v _I2C2_MasterStop I2C2_MasterStop `T(v  1 s 1 I2C2_MasterStop ]
+"598
+[v _I2C2_MasterIsNack I2C2_MasterIsNack `T(a  1 s 1 I2C2_MasterIsNack ]
+"603
+[v _I2C2_MasterSendAck I2C2_MasterSendAck `T(v  1 s 1 I2C2_MasterSendAck ]
+"609
+[v _I2C2_MasterSendNack I2C2_MasterSendNack `T(v  1 s 1 I2C2_MasterSendNack ]
+"615
+[v _I2C2_MasterClearBusCollision I2C2_MasterClearBusCollision `T(v  1 s 1 I2C2_MasterClearBusCollision ]
+"625
+[v _I2C2_MasterEnableIrq I2C2_MasterEnableIrq `T(v  1 s 1 I2C2_MasterEnableIrq ]
+"635
+[v _I2C2_MasterDisableIrq I2C2_MasterDisableIrq `T(v  1 s 1 I2C2_MasterDisableIrq ]
+"640
+[v _I2C2_MasterClearIrq I2C2_MasterClearIrq `T(v  1 s 1 I2C2_MasterClearIrq ]
+"645
+[v _I2C2_MasterSetIrq I2C2_MasterSetIrq `T(v  1 s 1 I2C2_MasterSetIrq ]
+"650
+[v _I2C2_MasterWaitForEvent I2C2_MasterWaitForEvent `T(v  1 s 1 I2C2_MasterWaitForEvent ]
+"50 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"10 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\ssd1306.c
+[v _ssd1306_Reset ssd1306_Reset `(v  1 e 1 0 ]
+"14
+[v _ssd1306_WriteCommand ssd1306_WriteCommand `(v  1 e 1 0 ]
+"20
+[v _ssd1306_WriteData ssd1306_WriteData `(v  1 e 1 0 ]
+"32
+[v _ssd1306_Init ssd1306_Init `(v  1 e 1 0 ]
+"134
+[v _ssd1306_Fill ssd1306_Fill `(v  1 e 1 0 ]
+"143
+[v _ssd1306_UpdateScreen ssd1306_UpdateScreen `(v  1 e 1 0 ]
+"152
+[v _ssd1306_DrawPixel ssd1306_DrawPixel `(v  1 e 1 0 ]
+"160
+[v _ssd1306_WriteChar ssd1306_WriteChar `(v  1 e 1 0 ]
+"182
+[v _ssd1306_WriteString ssd1306_WriteString `(v  1 e 1 0 ]
+"191
+[v _ssd1306_SetCursor ssd1306_SetCursor `(v  1 e 1 0 ]
+"197
+[v _ssd1306_DrawBitmap ssd1306_DrawBitmap `(v  1 e 1 0 ]
+"216
+[v _ssd1306_SetContrast ssd1306_SetContrast `(v  1 e 1 0 ]
+"222
+[v _ssd1306_SetDisplayOn ssd1306_SetDisplayOn `(v  1 e 1 0 ]
+"10212 C:/Users/adevo/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\include\proc\pic18f45q10.h
+[v _SSP2CLKPPS SSP2CLKPPS `VEuc  1 e 1 @3722 ]
+"10278
+[v _SSP2DATPPS SSP2DATPPS `VEuc  1 e 1 @3723 ]
+"10410
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @3725 ]
+"10430
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @3726 ]
+"10620
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @3728 ]
+"11074
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @3729 ]
+[s S274 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"11104
+[s S280 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S285 . 1 `uc 1 SSPM02 1 0 :1:0 
+`uc 1 SSPM12 1 0 :1:1 
+`uc 1 SSPM22 1 0 :1:2 
+`uc 1 SSPM32 1 0 :1:3 
+`uc 1 CKP2 1 0 :1:4 
+`uc 1 SSPEN2 1 0 :1:5 
+`uc 1 SSPOV2 1 0 :1:6 
+`uc 1 WCOL2 1 0 :1:7 
+]
+[u S294 . 1 `S274 1 . 1 0 `S280 1 . 1 0 `S285 1 . 1 0 ]
+[v _SSP2CON1bits SSP2CON1bits `VES294  1 e 1 @3729 ]
+"11194
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @3730 ]
+[s S458 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"11241
+[s S467 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S470 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S477 . 1 `uc 1 SEN2 1 0 :1:0 
+`uc 1 ADMSK12 1 0 :1:1 
+`uc 1 ADMSK22 1 0 :1:2 
+`uc 1 ADMSK32 1 0 :1:3 
+`uc 1 ACKEN2 1 0 :1:4 
+`uc 1 ACKDT2 1 0 :1:5 
+`uc 1 ACKSTAT2 1 0 :1:6 
+`uc 1 GCEN2 1 0 :1:7 
+]
+[s S486 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN2 1 0 :1:1 
+`uc 1 PEN2 1 0 :1:2 
+`uc 1 RCEN2 1 0 :1:3 
+`uc 1 ADMSK42 1 0 :1:4 
+`uc 1 ADMSK52 1 0 :1:5 
+]
+[u S493 . 1 `S458 1 . 1 0 `S467 1 . 1 0 `S470 1 . 1 0 `S477 1 . 1 0 `S486 1 . 1 0 ]
+[v _SSP2CON2bits SSP2CON2bits `VES493  1 e 1 @3730 ]
+[s S830 . 1 `uc 1 SSPIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"15362
+[s S839 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S845 . 1 `S830 1 . 1 0 `S839 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES845  1 e 1 @3776 ]
+[s S535 . 1 `uc 1 SSPIF 1 0 :1:0 
+`uc 1 BCLIF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"15779
+[s S544 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S550 . 1 `S535 1 . 1 0 `S544 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES550  1 e 1 @3784 ]
+"16627
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"16767
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3797 ]
+"16919
+[v _OSCEN OSCEN `VEuc  1 e 1 @3799 ]
+"16970
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3800 ]
+"17028
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"17199
+[v _PMD0 PMD0 `VEuc  1 e 1 @3804 ]
+"17276
+[v _PMD1 PMD1 `VEuc  1 e 1 @3805 ]
+"17340
+[v _PMD2 PMD2 `VEuc  1 e 1 @3806 ]
+"17385
+[v _PMD3 PMD3 `VEuc  1 e 1 @3807 ]
+"17447
+[v _PMD4 PMD4 `VEuc  1 e 1 @3808 ]
+"17500
+[v _PMD5 PMD5 `VEuc  1 e 1 @3809 ]
+"17941
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @3819 ]
+"17985
+[v _RB2PPS RB2PPS `VEuc  1 e 1 @3820 ]
+"19271
+[v _INLVLA INLVLA `VEuc  1 e 1 @3848 ]
+"19333
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3849 ]
+"19395
+[v _ODCONA ODCONA `VEuc  1 e 1 @3850 ]
+"19457
+[v _WPUA WPUA `VEuc  1 e 1 @3851 ]
+"19519
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"19767
+[v _INLVLB INLVLB `VEuc  1 e 1 @3856 ]
+"19829
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3857 ]
+"19891
+[v _ODCONB ODCONB `VEuc  1 e 1 @3858 ]
+"19953
+[v _WPUB WPUB `VEuc  1 e 1 @3859 ]
+"20015
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"20263
+[v _INLVLC INLVLC `VEuc  1 e 1 @3864 ]
+"20325
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3865 ]
+"20387
+[v _ODCONC ODCONC `VEuc  1 e 1 @3866 ]
+"20449
+[v _WPUC WPUC `VEuc  1 e 1 @3867 ]
+"20511
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"20573
+[v _INLVLD INLVLD `VEuc  1 e 1 @3869 ]
+"20635
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @3870 ]
+"20697
+[v _ODCOND ODCOND `VEuc  1 e 1 @3871 ]
+"20759
+[v _WPUD WPUD `VEuc  1 e 1 @3872 ]
+"20821
+[v _ANSELD ANSELD `VEuc  1 e 1 @3873 ]
+"20997
+[v _INLVLE INLVLE `VEuc  1 e 1 @3877 ]
+"21035
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @3878 ]
+"21067
+[v _ODCONE ODCONE `VEuc  1 e 1 @3879 ]
+"21099
+[v _WPUE WPUE `VEuc  1 e 1 @3880 ]
+"21137
+[v _ANSELE ANSELE `VEuc  1 e 1 @3881 ]
+"27541
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+"27603
+[v _LATB LATB `VEuc  1 e 1 @3971 ]
+"27665
+[v _LATC LATC `VEuc  1 e 1 @3972 ]
+"27727
+[v _LATD LATD `VEuc  1 e 1 @3973 ]
+"27789
+[v _LATE LATE `VEuc  1 e 1 @3974 ]
+"27821
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"27943
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+"28065
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"28187
+[v _TRISD TRISD `VEuc  1 e 1 @3978 ]
+"28309
+[v _TRISE TRISE `VEuc  1 e 1 @3979 ]
+"5 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\fonts.c
+[v _Font7x10 Font7x10 `C[950]us  1 s 1900 Font7x10 ]
+[s S1161 . 4 `Cuc 1 FontWidth 1 0 `uc 1 FontHeight 1 1 `*.32Cus 1 data 2 2 ]
+"106
+[v _Font_7x10 Font_7x10 `S1161  1 e 4 0 ]
+"6 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\main.c
+[v _microchip microchip `C[1024]uc  1 e 1024 0 ]
+"146 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/i2c2_master.c
+[v _i2c2_fsmStateTable i2c2_fsmStateTable `C[16]*.37(E13313  1 e 32 0 ]
+[s S248 . 36 `[6]*.37(E363 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E13313 1 state 1 33 `E358 1 error 1 34 `uc 1 addressNackCheck 1 35 :1:0 
+`uc 1 busy 1 35 :1:1 
+`uc 1 inUse 1 35 :1:2 
+`uc 1 bufferFree 1 35 :1:3 
+]
+"165
+[v _I2C2_Status I2C2_Status `S248  1 e 36 0 ]
+"26 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\ssd1306.c
+[v _SSD1306_Buffer SSD1306_Buffer `[1024]uc  1 s 1024 SSD1306_Buffer ]
+[s S1191 . 6 `us 1 CurrentX 2 0 `us 1 CurrentY 2 2 `uc 1 Initialized 1 4 `uc 1 DisplayOn 1 5 ]
+"29
+[v _SSD1306 SSD1306 `S1191  1 s 6 SSD1306 ]
+"77 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"96
+} 0
+"182 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\ssd1306.c
+[v _ssd1306_WriteString ssd1306_WriteString `(v  1 e 1 0 ]
+{
+[v ssd1306_WriteString@str str `*.32uc  1 p 2 33 ]
+[s S1161 . 4 `Cuc 1 FontWidth 1 0 `uc 1 FontHeight 1 1 `*.32Cus 1 data 2 2 ]
+[v ssd1306_WriteString@Font Font `S1161  1 p 4 35 ]
+[v ssd1306_WriteString@color color `E12927  1 p 1 39 ]
+"188
+} 0
+"160
+[v _ssd1306_WriteChar ssd1306_WriteChar `(v  1 e 1 0 ]
+{
+[v ssd1306_WriteChar@ch ch `uc  1 a 1 wreg ]
+"161
+[v ssd1306_WriteChar@j j `ul  1 a 4 29 ]
+[v ssd1306_WriteChar@i i `ul  1 a 4 25 ]
+[v ssd1306_WriteChar@b b `ul  1 a 4 20 ]
+"160
+[v ssd1306_WriteChar@ch ch `uc  1 a 1 wreg ]
+[s S1161 . 4 `Cuc 1 FontWidth 1 0 `uc 1 FontHeight 1 1 `*.32Cus 1 data 2 2 ]
+[v ssd1306_WriteChar@Font Font `S1161  1 p 4 10 ]
+[v ssd1306_WriteChar@color color `E12927  1 p 1 14 ]
+"163
+[v ssd1306_WriteChar@ch ch `uc  1 a 1 24 ]
+"178
+} 0
+"191
+[v _ssd1306_SetCursor ssd1306_SetCursor `(v  1 e 1 0 ]
+{
+[v ssd1306_SetCursor@x x `uc  1 a 1 wreg ]
+[v ssd1306_SetCursor@x x `uc  1 a 1 wreg ]
+[v ssd1306_SetCursor@y y `uc  1 p 1 0 ]
+[v ssd1306_SetCursor@x x `uc  1 a 1 1 ]
+"194
+} 0
+"32
+[v _ssd1306_Init ssd1306_Init `(v  1 e 1 0 ]
+{
+"131
+} 0
+"143
+[v _ssd1306_UpdateScreen ssd1306_UpdateScreen `(v  1 e 1 0 ]
+{
+"144
+[v ssd1306_UpdateScreen@i i `uc  1 a 1 27 ]
+"150
+} 0
+"20
+[v _ssd1306_WriteData ssd1306_WriteData `(v  1 e 1 0 ]
+{
+[v ssd1306_WriteData@buffer buffer `*.39uc  1 p 2 21 ]
+[v ssd1306_WriteData@buff_size buff_size `ui  1 p 2 23 ]
+"23
+} 0
+"222
+[v _ssd1306_SetDisplayOn ssd1306_SetDisplayOn `(v  1 e 1 0 ]
+{
+[v ssd1306_SetDisplayOn@on on `Cuc  1 a 1 wreg ]
+"223
+[v ssd1306_SetDisplayOn@value value `uc  1 a 1 25 ]
+"222
+[v ssd1306_SetDisplayOn@on on `Cuc  1 a 1 wreg ]
+"224
+[v ssd1306_SetDisplayOn@on on `Cuc  1 a 1 24 ]
+"232
+} 0
+"216
+[v _ssd1306_SetContrast ssd1306_SetContrast `(v  1 e 1 0 ]
+{
+[v ssd1306_SetContrast@value value `Cuc  1 a 1 wreg ]
+[v ssd1306_SetContrast@value value `Cuc  1 a 1 wreg ]
+[v ssd1306_SetContrast@value value `Cuc  1 a 1 24 ]
+"220
+} 0
+"14
+[v _ssd1306_WriteCommand ssd1306_WriteCommand `(v  1 e 1 0 ]
+{
+[v ssd1306_WriteCommand@byte byte `uc  1 a 1 wreg ]
+"15
+[v ssd1306_WriteCommand@writebyte1 writebyte1 `[2]uc  1 a 2 22 ]
+"14
+[v ssd1306_WriteCommand@byte byte `uc  1 a 1 wreg ]
+[v ssd1306_WriteCommand@byte byte `uc  1 a 1 21 ]
+"17
+} 0
+"111 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/examples/i2c2_master_example.c
+[v _I2C2_WriteNBytes I2C2_WriteNBytes `(v  1 e 1 0 ]
+{
+[v I2C2_WriteNBytes@address address `uc  1 a 1 wreg ]
+[v I2C2_WriteNBytes@address address `uc  1 a 1 wreg ]
+[v I2C2_WriteNBytes@data data `*.39uc  1 p 2 16 ]
+[v I2C2_WriteNBytes@len len `ui  1 p 2 18 ]
+[v I2C2_WriteNBytes@address address `uc  1 a 1 20 ]
+"118
+} 0
+"283 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/i2c2_master.c
+[v _I2C2_SetAddressNackCallback I2C2_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C2_SetAddressNackCallback@cb cb `*.37(E363  1 p 2 5 ]
+[v I2C2_SetAddressNackCallback@ptr ptr `*.39v  1 p 2 7 ]
+"286
+} 0
+"176
+[v _I2C2_Open I2C2_Open `(E358  1 e 1 0 ]
+{
+[v I2C2_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C2_Open@returnValue returnValue `E358  1 a 1 1 ]
+"176
+[v I2C2_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C2_Open@address address `uc  1 a 1 0 ]
+"207
+} 0
+"543
+[v _I2C2_MasterOpen I2C2_MasterOpen `T(a  1 s 1 I2C2_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C2_MasterWrite I2C2_MasterWrite `(E358  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C2_MasterOperation I2C2_MasterOperation `(E358  1 e 1 0 ]
+{
+[v I2C2_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C2_MasterOperation@returnValue returnValue `E358  1 a 1 15 ]
+"224
+[v I2C2_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C2_MasterOperation@read read `a  1 a 1 14 ]
+"244
+} 0
+"312
+[v _I2C2_Poller I2C2_Poller `(v  1 s 1 I2C2_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C2_MasterWaitForEvent I2C2_MasterWaitForEvent `T(v  1 s 1 I2C2_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C2_MasterFsm I2C2_MasterFsm `T(v  1 s 1 I2C2_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C2_DO_ADDRESS_NACK I2C2_DO_ADDRESS_NACK `(E13313  1 s 1 I2C2_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C2_DO_RESET I2C2_DO_RESET `(E13313  1 s 1 I2C2_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C2_DO_RX_NACK_RESTART I2C2_DO_RX_NACK_RESTART `(E13313  1 s 1 I2C2_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C2_DO_RX_NACK_STOP I2C2_DO_RX_NACK_STOP `(E13313  1 s 1 I2C2_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C2_DO_RX_ACK I2C2_DO_RX_ACK `(E13313  1 s 1 I2C2_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C2_DO_SEND_STOP I2C2_DO_SEND_STOP `(E13313  1 s 1 I2C2_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C2_DO_SEND_RESTART I2C2_DO_SEND_RESTART `(E13313  1 s 1 I2C2_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C2_DO_SEND_RESTART_WRITE I2C2_DO_SEND_RESTART_WRITE `(E13313  1 s 1 I2C2_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C2_DO_SEND_RESTART_READ I2C2_DO_SEND_RESTART_READ `(E13313  1 s 1 I2C2_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C2_DO_RCEN I2C2_DO_RCEN `(E13313  1 s 1 I2C2_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C2_DO_RX I2C2_DO_RX `(E13313  1 s 1 I2C2_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C2_DO_TX I2C2_DO_TX `(E13313  1 s 1 I2C2_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C2_DO_SEND_ADR_WRITE I2C2_DO_SEND_ADR_WRITE `(E13313  1 s 1 I2C2_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C2_DO_SEND_ADR_READ I2C2_DO_SEND_ADR_READ `(E13313  1 s 1 I2C2_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C2_DO_IDLE I2C2_DO_IDLE `(E13313  1 s 1 I2C2_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C2_DO_TX_EMPTY I2C2_DO_TX_EMPTY `(E13313  1 s 1 I2C2_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C2_MasterSetIrq I2C2_MasterSetIrq `T(v  1 s 1 I2C2_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C2_MasterIsNack I2C2_MasterIsNack `T(a  1 s 1 I2C2_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C2_MasterSendTxData I2C2_MasterSendTxData `T(v  1 s 1 I2C2_MasterSendTxData ]
+{
+[v I2C2_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C2_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C2_MasterSendTxData@data data `uc  1 a 1 0 ]
+"571
+} 0
+"603
+[v _I2C2_MasterSendAck I2C2_MasterSendAck `T(v  1 s 1 I2C2_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C2_MasterGetRxData I2C2_MasterGetRxData `T(uc  1 s 1 I2C2_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C2_MasterSendNack I2C2_MasterSendNack `T(v  1 s 1 I2C2_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C2_MasterStartRx I2C2_MasterStartRx `T(v  1 s 1 I2C2_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C2_CallbackReturnReset I2C2_CallbackReturnReset `(E363  1 e 1 0 ]
+{
+[v I2C2_CallbackReturnReset@funPtr funPtr `*.39v  1 p 2 9 ]
+"528
+} 0
+"520
+[v _I2C2_CallbackReturnStop I2C2_CallbackReturnStop `(E363  1 e 1 0 ]
+{
+"523
+} 0
+"170 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/examples/i2c2_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E363  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E363  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E363  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E363  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"147
+} 0
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E363  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@ptr ptr `*.39v  1 p 2 9 ]
+"168
+} 0
+"273 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/i2c2_master.c
+[v _I2C2_SetDataCompleteCallback I2C2_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C2_SetDataCompleteCallback@cb cb `*.37(E363  1 p 2 5 ]
+[v I2C2_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 7 ]
+"276
+} 0
+"298
+[v _I2C2_SetCallback I2C2_SetCallback `(v  1 s 1 I2C2_SetCallback ]
+{
+[v I2C2_SetCallback@idx idx `E13331  1 a 1 wreg ]
+[v I2C2_SetCallback@idx idx `E13331  1 a 1 wreg ]
+[v I2C2_SetCallback@cb cb `*.37(E363  1 p 2 0 ]
+[v I2C2_SetCallback@ptr ptr `*.39v  1 p 2 2 ]
+"300
+[v I2C2_SetCallback@idx idx `E13331  1 a 1 4 ]
+"310
+} 0
+"263
+[v _I2C2_SetBuffer I2C2_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C2_SetBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v I2C2_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"271
+} 0
+"593
+[v _I2C2_MasterStop I2C2_MasterStop `T(v  1 s 1 I2C2_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C2_MasterEnableRestart I2C2_MasterEnableRestart `T(v  1 s 1 I2C2_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C2_MasterStart I2C2_MasterStart `T(v  1 s 1 I2C2_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C2_Close I2C2_Close `(E358  1 e 1 0 ]
+{
+"211
+[v I2C2_Close@returnValue returnValue `E358  1 a 1 0 ]
+"222
+} 0
+"635
+[v _I2C2_MasterDisableIrq I2C2_MasterDisableIrq `T(v  1 s 1 I2C2_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C2_MasterClose I2C2_MasterClose `T(v  1 s 1 I2C2_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C2_MasterClearIrq I2C2_MasterClearIrq `T(v  1 s 1 I2C2_MasterClearIrq ]
+{
+"643
+} 0
+"10 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\ssd1306.c
+[v _ssd1306_Reset ssd1306_Reset `(v  1 e 1 0 ]
+{
+"12
+} 0
+"134
+[v _ssd1306_Fill ssd1306_Fill `(v  1 e 1 0 ]
+{
+[v ssd1306_Fill@color color `E12927  1 a 1 wreg ]
+"135
+[v ssd1306_Fill@i i `ul  1 a 4 3 ]
+"134
+[v ssd1306_Fill@color color `E12927  1 a 1 wreg ]
+"136
+[v ssd1306_Fill@color color `E12927  1 a 1 0 ]
+"140
+} 0
+"197
+[v _ssd1306_DrawBitmap ssd1306_DrawBitmap `(v  1 e 1 0 ]
+{
+[v ssd1306_DrawBitmap@x x `uc  1 a 1 wreg ]
+"201
+[v ssd1306_DrawBitmap@i i `uc  1 a 1 24 ]
+"200
+[v ssd1306_DrawBitmap@j j `uc  1 a 1 23 ]
+"198
+[v ssd1306_DrawBitmap@byteWidth byteWidth `s  1 a 2 19 ]
+"199
+[v ssd1306_DrawBitmap@byte byte `uc  1 a 1 22 ]
+"197
+[v ssd1306_DrawBitmap@x x `uc  1 a 1 wreg ]
+[v ssd1306_DrawBitmap@y y `uc  1 p 1 10 ]
+[v ssd1306_DrawBitmap@bitmap bitmap `*.32Cuc  1 p 2 11 ]
+[v ssd1306_DrawBitmap@w w `uc  1 p 1 13 ]
+[v ssd1306_DrawBitmap@h h `uc  1 p 1 14 ]
+[v ssd1306_DrawBitmap@color color `E12927  1 p 1 15 ]
+[v ssd1306_DrawBitmap@x x `uc  1 a 1 21 ]
+"214
+} 0
+"152
+[v _ssd1306_DrawPixel ssd1306_DrawPixel `(v  1 e 1 0 ]
+{
+[v ssd1306_DrawPixel@x x `uc  1 a 1 wreg ]
+[v ssd1306_DrawPixel@x x `uc  1 a 1 wreg ]
+[v ssd1306_DrawPixel@y y `uc  1 p 1 0 ]
+[v ssd1306_DrawPixel@color color `E12927  1 p 1 1 ]
+[v ssd1306_DrawPixel@x x `uc  1 a 1 9 ]
+"158
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"50 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"72
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"55 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"131
+} 0
+"58 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"167 C:\Users\adevo\MPLABXProjects\ssd1306_q10.X\mcc_generated_files/i2c2_master.c
+[v _I2C2_Initialize I2C2_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0

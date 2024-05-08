@@ -1,0 +1,1393 @@
+Microchip MPLAB XC8 Compiler V2.41
+
+Linker command line:
+
+-W-3 \
+  --edf=C:/Users/iProf/.mchp_packs/Microchip/PIC18F-Q_DFP/1.25.433/xc8\pic\dat\20240223164052_en.msgs \
+  -cn -h+dist/default/debug\LCD_I2C_OLED.X.debug.sym \
+  --cmf=dist/default/debug\LCD_I2C_OLED.X.debug.cmf -z -Q18F57Q43 \
+  -oC:\Users\iProf\AppData\Local\Temp\xcAs8o4.\driver_tmp_3.o \
+  --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
+  -Mdist/default/debug/LCD_I2C_OLED.X.debug.map \
+  --md=C:\Users\iProf\AppData\Local\Temp\xcAs8o4.\driver_tmp_0.dat -E1 \
+  -ver=XC8 Compiler --acfsm=1493 -ACODE=00h-01FFFFh -ACONST=00h-01FFFFh \
+  -ASMALLCONST=02600h-026FFhx474 \
+  -AMEDIUMCONST=02600h-0FFFFh,012600h-01FFFFh -ACOMRAM=0501h-055Fh \
+  -AABS1=0500h-024FFh -ABIGRAM=0501h-024FFh \
+  -ARAM=0560h-05FFh,0600h-06FFhx31 -ABANK5=0560h-05FFh -ABANK6=0600h-06FFh \
+  -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh -ABANK9=0900h-09FFh \
+  -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh -ABANK12=0C00h-0CFFh \
+  -ABANK13=0D00h-0DFFh -ABANK14=0E00h-0EFFh -ABANK15=0F00h-0FFFh \
+  -ABANK16=01000h-010FFh -ABANK17=01100h-011FFh -ABANK18=01200h-012FFh \
+  -ABANK19=01300h-013FFh -ABANK20=01400h-014FFh -ABANK21=01500h-015FFh \
+  -ABANK22=01600h-016FFh -ABANK23=01700h-017FFh -ABANK24=01800h-018FFh \
+  -ABANK25=01900h-019FFh -ABANK26=01A00h-01AFFh -ABANK27=01B00h-01BFFh \
+  -ABANK28=01C00h-01CFFh -ABANK29=01D00h-01DFFh -ABANK30=01E00h-01EFFh \
+  -ABANK31=01F00h-01FFFh -ABANK32=02000h-020FFh -ABANK33=02100h-021FFh \
+  -ABANK34=02200h-022FFh -ABANK35=02300h-023FFh -ABANK36=02400h-024FFh \
+  -ASFR=00h-0FFhx4,0400h-045Fh,0460h-04FFh,02500h-025FFh \
+  -ABIGSFR=00h-04FFh,02500h-025FFh -ACONFIG=0300000h-0300011h \
+  -AIDLOC=0200000h-020003Fh -AEEDATA=0380000h-03803FFh -peeprom_data=EEDATA \
+  -preset_vec=00h -ppowerup=CODE,init -pramtop=02600h \
+  -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST -pconst=CONST \
+  -AFARRAM=00h-00h \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
+  C:\Users\iProf\AppData\Local\Temp\xcAs8o4.\driver_tmp_14.o \
+  dist/default/debug\LCD_I2C_OLED.X.debug.o 
+
+Object code version is 3.11
+
+Machine type is 18F57Q43
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\iProf\AppData\Local\Temp\xcAs8o4.\driver_tmp_14.o
+                config                           300000   300000        A        0       4
+                init                              1FFFC    1FFFC        4     FFFE       0
+                reset_vec                             0        0        4        0       0
+dist/default/debug\LCD_I2C_OLED.X.debug.o
+                config                           300000   300000        A        0       4
+                smallconst                         2600     2600       6A     1300       0
+                text83                             36A4     36A4        8     1335       0
+                text82                             3640     3640        C     1335       0
+                text81                             34EC     34EC       1C     1335       0
+                text80                             339C     339C       2A     1335       0
+                text79                             36E2     36E2        6     1335       0
+                text78                             36DC     36DC        6     1335       0
+                text77                             36D6     36D6        6     1335       0
+                text76                             35A6     35A6       16     1335       0
+                text75                             3590     3590       16     1335       0
+                text74                             357A     357A       16     1335       0
+                text73                             3144     3144       52     1335       0
+                text72                             345A     345A       22     1335       0
+                text71                             2CB4     2CB4       80     1335       0
+                text70                             34D0     34D0       1C     1335       0
+                text69                             32EC     32EC       30     1335       0
+                text68                             32BC     32BC       30     1335       0
+                text67                             328C     328C       30     1335       0
+                text66                             325C     325C       30     1335       0
+                text65                             31E2     31E2       44     1335       0
+                text64                             36F4     36F4        4     1335       0
+                text63                             36F0     36F0        4     1335       0
+                text62                             366A     366A        A     1335       0
+                text61                             36D0     36D0        6     1335       0
+                text60                             36CA     36CA        6     1335       0
+                text59                             369C     369C        8     1335       0
+                text58                             3694     3694        8     1335       0
+                text57                             36C4     36C4        6     1335       0
+                text56                             3564     3564       16     1335       0
+                text55                             36BE     36BE        6     1335       0
+                text54                             36B8     36B8        6     1335       0
+                text53                             36B2     36B2        6     1335       0
+                text52                             36AC     36AC        6     1335       0
+                text51                             354E     354E       16     1335       0
+                text50                             3538     3538       16     1335       0
+                text49                             368C     368C        8     1335       0
+                text48                             3660     3660        A     1335       0
+                text47                             3372     3372       2A     1335       0
+                text46                             35BC     35BC       14     1335       0
+                text45                             266A     266A      120     1335       0
+                text44                             2B14     2B14       90     1335       0
+                text43                             2D34     2D34       7A     1335       0
+                text42                             2A76     2A76       9E     1335       0
+                text41                             3634     3634        C     1335       0
+                text40                             36EC     36EC        4     1335       0
+                text39                             36E8     36E8        4     1335       0
+                text38                             33C6     33C6       28     1335       0
+                text37                             3684     3684        8     1335       0
+                text36                             3626     3626        E     1335       0
+                text35                             367C     367C        8     1335       0
+                text34                             3618     3618        E     1335       0
+                text33                             2F0C     2F0C       6C     1335       0
+                text32                             2E98     2E98       74     1335       0
+                text31                             360A     360A        E     1335       0
+                text30                             2F78     2F78       6A     1335       0
+                text29                             3098     3098       5A     1335       0
+                text28                             34B4     34B4       1C     1335       0
+                text27                             3196     3196       4C     1335       0
+                text26                             3674     3674        8     1335       0
+                text25                             3348     3348       2A     1335       0
+                text24                             29D4     29D4       A2     1335       0
+                text23                             3498     3498       1C     1335       0
+                text22                             2DAE     2DAE       76     1335       0
+                text21                             35D0     35D0       10     1335       0
+                text20                             303E     303E       5A     1335       0
+                text19                             331C     331C       2C     1335       0
+                text18                             3656     3656        A     1335       0
+                text17                             2BA4     2BA4       8A     1335       0
+                text16                             2FE2     2FE2       5C     1335       0
+                text15                             3438     3438       22     1335       0
+                text14                             347C     347C       1C     1335       0
+                text13                             291A     291A       BA     1335       0
+                text12                             3414     3414       24     1335       0
+                text11                             35FC     35FC        E     1335       0
+                text10                             35EE     35EE        E     1335       0
+                text9                              35E0     35E0        E     1335       0
+                text8                              2E24     2E24       74     1335       0
+                text7                              3508     3508       1A     1335       0
+                text6                              3522     3522       16     1335       0
+                text5                              364C     364C        A     1335       0
+                text4                              278A     278A       CA     1335       0
+                text3                              2C2E     2C2E       86     1335       0
+                text2                              30F2     30F2       52     1335       0
+                text1                              33EE     33EE       26     1335       0
+                text0                              2854     2854       C6     1335       0
+                cstackCOMRAM                        532      532       25      501       1
+                bssBANK5                            560      560       20      560       1
+                dataCOMRAM                          55D      55D        2      501       1
+                bssCOMRAM                           501      501       31      501       1
+                cinit                              3226     3226       36     1335       0
+                nvBANK5                             580      580        3      560       1
+                nvCOMRAM                            557      557        6      501       1
+                idataCOMRAM                        36F8     36F8        2     1335       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   CODE           
+                init                              1FFFC    1FFFC        4         0
+                reset_vec                             0        0        4         0
+                text83                             36A4     36A4        8         0
+                text82                             3640     3640        C         0
+                text81                             34EC     34EC       1C         0
+                text80                             339C     339C       2A         0
+                text79                             36E2     36E2        6         0
+                text78                             36DC     36DC        6         0
+                text77                             36D6     36D6        6         0
+                text76                             35A6     35A6       16         0
+                text75                             3590     3590       16         0
+                text74                             357A     357A       16         0
+                text73                             3144     3144       52         0
+                text72                             345A     345A       22         0
+                text71                             2CB4     2CB4       80         0
+                text70                             34D0     34D0       1C         0
+                text69                             32EC     32EC       30         0
+                text68                             32BC     32BC       30         0
+                text67                             328C     328C       30         0
+                text66                             325C     325C       30         0
+                text65                             31E2     31E2       44         0
+                text64                             36F4     36F4        4         0
+                text63                             36F0     36F0        4         0
+                text62                             366A     366A        A         0
+                text61                             36D0     36D0        6         0
+                text60                             36CA     36CA        6         0
+                text59                             369C     369C        8         0
+                text58                             3694     3694        8         0
+                text57                             36C4     36C4        6         0
+                text56                             3564     3564       16         0
+                text55                             36BE     36BE        6         0
+                text54                             36B8     36B8        6         0
+                text53                             36B2     36B2        6         0
+                text52                             36AC     36AC        6         0
+                text51                             354E     354E       16         0
+                text50                             3538     3538       16         0
+                text49                             368C     368C        8         0
+                text48                             3660     3660        A         0
+                text47                             3372     3372       2A         0
+                text46                             35BC     35BC       14         0
+                text45                             266A     266A      120         0
+                text44                             2B14     2B14       90         0
+                text43                             2D34     2D34       7A         0
+                text42                             2A76     2A76       9E         0
+                text41                             3634     3634        C         0
+                text40                             36EC     36EC        4         0
+                text39                             36E8     36E8        4         0
+                text38                             33C6     33C6       28         0
+                text37                             3684     3684        8         0
+                text36                             3626     3626        E         0
+                text35                             367C     367C        8         0
+                text34                             3618     3618        E         0
+                text33                             2F0C     2F0C       6C         0
+                text32                             2E98     2E98       74         0
+                text31                             360A     360A        E         0
+                text30                             2F78     2F78       6A         0
+                text29                             3098     3098       5A         0
+                text28                             34B4     34B4       1C         0
+                text27                             3196     3196       4C         0
+                text26                             3674     3674        8         0
+                text25                             3348     3348       2A         0
+                text24                             29D4     29D4       A2         0
+                text23                             3498     3498       1C         0
+                text22                             2DAE     2DAE       76         0
+                text21                             35D0     35D0       10         0
+                text20                             303E     303E       5A         0
+                text19                             331C     331C       2C         0
+                text18                             3656     3656        A         0
+                text17                             2BA4     2BA4       8A         0
+                text16                             2FE2     2FE2       5C         0
+                text15                             3438     3438       22         0
+                text14                             347C     347C       1C         0
+                text13                             291A     291A       BA         0
+                text12                             3414     3414       24         0
+                text11                             35FC     35FC        E         0
+                text10                             35EE     35EE        E         0
+                text9                              35E0     35E0        E         0
+                text8                              2E24     2E24       74         0
+                text7                              3508     3508       1A         0
+                text6                              3522     3522       16         0
+                text5                              364C     364C        A         0
+                text4                              278A     278A       CA         0
+                text3                              2C2E     2C2E       86         0
+                text2                              30F2     30F2       52         0
+                text1                              33EE     33EE       26         0
+                text0                              2854     2854       C6         0
+                cinit                              3226     3226       36         0
+                idataCOMRAM                        36F8     36F8        2         0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+                smallconst                         2600     2600       6A         0
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   COMRAM         
+                cstackCOMRAM                        532      532       25         1
+                dataCOMRAM                          55D      55D        2         1
+                bssCOMRAM                           501      501       31         1
+                nvCOMRAM                            557      557        6         1
+
+        CLASS   ABS1           
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK5          
+                bssBANK5                            560      560       20         1
+                nvBANK5                             580      580        3         1
+
+        CLASS   BANK6          
+
+        CLASS   BANK7          
+
+        CLASS   BANK8          
+
+        CLASS   BANK9          
+
+        CLASS   BANK10         
+
+        CLASS   BANK11         
+
+        CLASS   BANK12         
+
+        CLASS   BANK13         
+
+        CLASS   BANK14         
+
+        CLASS   BANK15         
+
+        CLASS   BANK16         
+
+        CLASS   BANK17         
+
+        CLASS   BANK18         
+
+        CLASS   BANK19         
+
+        CLASS   BANK20         
+
+        CLASS   BANK21         
+
+        CLASS   BANK22         
+
+        CLASS   BANK23         
+
+        CLASS   BANK24         
+
+        CLASS   BANK25         
+
+        CLASS   BANK26         
+
+        CLASS   BANK27         
+
+        CLASS   BANK28         
+
+        CLASS   BANK29         
+
+        CLASS   BANK30         
+
+        CLASS   BANK31         
+
+        CLASS   BANK32         
+
+        CLASS   BANK33         
+
+        CLASS   BANK34         
+
+        CLASS   BANK35         
+
+        CLASS   BANK36         
+
+        CLASS   SFR            
+
+        CLASS   BIGSFR         
+
+        CLASS   CONFIG         
+                config                           300000   300000        A         4
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+        CLASS   FARRAM         
+
+        CLASS   HEAP           
+
+        CLASS   STACK          
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+                reset_vec                      000000  000004  000004         0       0  CODE    
+                bssCOMRAM                      000501  00005E  00055F       501       1  COMRAM  
+                bssBANK5                       000560  000023  000583       560       1  BANK5   
+                smallconst                     002600  00006A  00266A      1300       0  SMALLCON
+                text45                         00266A  001090  0036FA      1335       0  CODE    
+                init                           01FFFC  000004  020000      FFFE       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK10           000A00-000AFF              100
+        BANK11           000B00-000BFF              100
+        BANK12           000C00-000CFF              100
+        BANK13           000D00-000DFF              100
+        BANK14           000E00-000EFF              100
+        BANK15           000F00-000FFF              100
+        BANK16           001000-0010FF              100
+        BANK17           001100-0011FF              100
+        BANK18           001200-0012FF              100
+        BANK19           001300-0013FF              100
+        BANK20           001400-0014FF              100
+        BANK21           001500-0015FF              100
+        BANK22           001600-0016FF              100
+        BANK23           001700-0017FF              100
+        BANK24           001800-0018FF              100
+        BANK25           001900-0019FF              100
+        BANK26           001A00-001AFF              100
+        BANK27           001B00-001BFF              100
+        BANK28           001C00-001CFF              100
+        BANK29           001D00-001DFF              100
+        BANK30           001E00-001EFF              100
+        BANK31           001F00-001FFF              100
+        BANK32           002000-0020FF              100
+        BANK33           002100-0021FF              100
+        BANK34           002200-0022FF              100
+        BANK35           002300-0023FF              100
+        BANK36           002400-0024FF              100
+        BANK5            000583-0005FF               7D
+        BANK6            000600-0006FF              100
+        BANK7            000700-0007FF              100
+        BANK8            000800-0008FF              100
+        BANK9            000900-0009FF              100
+        BIGRAM           00055F-00055F                1
+                         000583-0024FF             1F7D
+        BIGSFR           000000-0004FF              500
+                         002500-0025FF              100
+        CODE             000004-0025FF             25FC
+                         0036FA-01FFFB            1C902
+        COMRAM           00055F-00055F                1
+        CONFIG           30000A-300011                8
+        CONST            000004-0025FF             25FC
+                         0036FA-01FFFB            1C902
+        EEDATA           380000-3803FF              400
+        IDLOC            200000-20003F               40
+        MEDIUMCONST      0036FA-00FFFF             C906
+                         012600-01FFFB             D9FC
+        RAM              000583-0024FF              100
+        SFR              000000-0004FF              100
+                         002500-0025FF              100
+        SMALLCONST       0036FA-01FFFB              100
+
+                                  Symbol Table
+
+?_printf                                      cstackCOMRAM 00054B
+?_vfprintf                                    cstackCOMRAM 000543
+I2C1_CallbackReturnReset@funPtr               cstackCOMRAM 00053D
+I2C1_Close@returnValue                        cstackCOMRAM 000532
+I2C1_DO_RX@retFsmState                        cstackCOMRAM 000543
+I2C1_DO_TX@dataTx                             cstackCOMRAM 000543
+I2C1_DO_TX@retFsmState                        cstackCOMRAM 000544
+I2C1_MasterOperation@read                     cstackCOMRAM 000545
+I2C1_MasterOperation@returnValue              cstackCOMRAM 000546
+I2C1_MasterSendTxData@data                    cstackCOMRAM 000532
+I2C1_MasterSetCounter@counter                 cstackCOMRAM 000532
+I2C1_Open@address                             cstackCOMRAM 000532
+I2C1_Open@returnValue                         cstackCOMRAM 000533
+I2C1_SetAddressNackCallback@cb                cstackCOMRAM 000538
+I2C1_SetAddressNackCallback@ptr               cstackCOMRAM 00053B
+I2C1_SetBuffer@buffer                         cstackCOMRAM 000532
+I2C1_SetBuffer@bufferSize                     cstackCOMRAM 000534
+I2C1_SetCallback@cb                           cstackCOMRAM 000532
+I2C1_SetCallback@idx                          cstackCOMRAM 000537
+I2C1_SetCallback@ptr                          cstackCOMRAM 000535
+I2C1_SetDataCompleteCallback@cb               cstackCOMRAM 000538
+I2C1_SetDataCompleteCallback@ptr              cstackCOMRAM 00053B
+I2C1_Write@address                            cstackCOMRAM 000548
+I2C1_Write@data                               cstackCOMRAM 000547
+I2C_LCD_Cmd@cmd                               cstackCOMRAM 000552
+PCF_Wr@dato                                   cstackCOMRAM 000549
+UART1_SetErrorHandler@interruptHandler        cstackCOMRAM 000532
+UART1_SetFramingErrorHandler@interruptHandler cstackCOMRAM 000532
+UART1_SetOverrunErrorHandler@interruptHandler cstackCOMRAM 000532
+UART1_Write@txData                            cstackCOMRAM 000532
+_ACTCON                                       (abs)        0000AC
+_ADACCH                                       (abs)        0003E4
+_ADACCL                                       (abs)        0003E3
+_ADACCU                                       (abs)        0003E5
+_ADACQH                                       (abs)        0003EF
+_ADACQL                                       (abs)        0003EE
+_ADACT                                        (abs)        0003F9
+_ADCAP                                        (abs)        0003F0
+_ADCC_Initialize                              text16       002FE2
+_ADCLK                                        (abs)        0003FA
+_ADCNT                                        (abs)        0003E6
+_ADCON0                                       (abs)        0003F3
+_ADCON0bits                                   (abs)        0003F3
+_ADCON1                                       (abs)        0003F4
+_ADCON1bits                                   (abs)        0003F4
+_ADCON2                                       (abs)        0003F5
+_ADCON2bits                                   (abs)        0003F5
+_ADCON3                                       (abs)        0003F6
+_ADCON3bits                                   (abs)        0003F6
+_ADERRH                                       (abs)        0003DE
+_ADERRL                                       (abs)        0003DD
+_ADFLTRH                                      (abs)        0003E2
+_ADFLTRL                                      (abs)        0003E1
+_ADLTHH                                       (abs)        0003DA
+_ADLTHL                                       (abs)        0003D9
+_ADPCH                                        (abs)        0003EC
+_ADPREH                                       (abs)        0003F2
+_ADPREL                                       (abs)        0003F1
+_ADPREVH                                      (abs)        0003E9
+_ADPREVL                                      (abs)        0003E8
+_ADREF                                        (abs)        0003F8
+_ADRESH                                       (abs)        0003EB
+_ADRESL                                       (abs)        0003EA
+_ADRPT                                        (abs)        0003E7
+_ADSTAT                                       (abs)        0003F7
+_ADSTATbits                                   (abs)        0003F7
+_ADSTPTH                                      (abs)        0003E0
+_ADSTPTL                                      (abs)        0003DF
+_ADUTHH                                       (abs)        0003DC
+_ADUTHL                                       (abs)        0003DB
+_ANSELA                                       (abs)        000400
+_ANSELB                                       (abs)        000408
+_ANSELC                                       (abs)        000410
+_ANSELD                                       (abs)        000418
+_ANSELE                                       (abs)        000420
+_ANSELF                                       (abs)        000428
+_DIR_PCF                                      dataCOMRAM   00055D
+_I2C1CLK                                      (abs)        00029C
+_I2C1CNT                                      (abs)        00028D
+_I2C1CON0                                     (abs)        000294
+_I2C1CON0bits                                 (abs)        000294
+_I2C1CON1                                     (abs)        000295
+_I2C1CON1bits                                 (abs)        000295
+_I2C1CON2                                     (abs)        000296
+_I2C1ERR                                      (abs)        000297
+_I2C1ERRbits                                  (abs)        000297
+_I2C1PIE                                      (abs)        00029B
+_I2C1PIEbits                                  (abs)        00029B
+_I2C1PIR                                      (abs)        00029A
+_I2C1PIRbits                                  (abs)        00029A
+_I2C1RXB                                      (abs)        00028B
+_I2C1SCLPPS                                   (abs)        000271
+_I2C1SDAPPS                                   (abs)        000270
+_I2C1STAT1bits                                (abs)        000299
+_I2C1TXB                                      (abs)        00028C
+_I2C1_CallbackReturnReset                     text63       0036F0
+_I2C1_CallbackReturnStop                      text64       0036F4
+_I2C1_ClearInterruptFlags                     text73       003144
+_I2C1_Close                                   text80       00339C
+_I2C1_DO_ADDRESS_NACK                         text33       002F0C
+_I2C1_DO_BUS_COLLISION                        text32       002E98
+_I2C1_DO_BUS_ERROR                            text31       00360A
+_I2C1_DO_IDLE                                 text48       003660
+_I2C1_DO_RESET                                text34       003618
+_I2C1_DO_RX                                   text44       002B14
+_I2C1_DO_RX_ACK                               text37       003684
+_I2C1_DO_RX_EMPTY                             text42       002A76
+_I2C1_DO_RX_NACK_RESTART                      text35       00367C
+_I2C1_DO_RX_NACK_STOP                         text36       003626
+_I2C1_DO_SEND_ADR_READ                        text47       003372
+_I2C1_DO_SEND_ADR_WRITE                       text46       0035BC
+_I2C1_DO_SEND_RESTART                         text39       0036E8
+_I2C1_DO_SEND_RESTART_READ                    text41       003634
+_I2C1_DO_SEND_RESTART_WRITE                   text40       0036EC
+_I2C1_DO_SEND_STOP                            text38       0033C6
+_I2C1_DO_TX                                   text45       00266A
+_I2C1_DO_TX$1411                              cstackCOMRAM 000541
+_I2C1_DO_TX_ACK                               text49       00368C
+_I2C1_DO_TX_EMPTY                             text43       002D34
+_I2C1_Initialize                              text15       003438
+_I2C1_MasterClearCountFlag                    text79       0036E2
+_I2C1_MasterClearIrq                          text83       0036A4
+_I2C1_MasterClearNackFlag                     text78       0036DC
+_I2C1_MasterClearStopFlag                     text77       0036D6
+_I2C1_MasterClose                             text82       003640
+_I2C1_MasterDisableIrq                        text81       0034EC
+_I2C1_MasterDisableRestart                    text61       0036D0
+_I2C1_MasterEnableRestart                     text60       0036CA
+_I2C1_MasterFsm                               text30       002F78
+_I2C1_MasterGetCounter                        text52       0036AC
+_I2C1_MasterGetRxData                         text57       0036C4
+_I2C1_MasterIsCountFlagSet                    text76       0035A6
+_I2C1_MasterIsNack                            text51       00354E
+_I2C1_MasterIsNackFlagSet                     text75       003590
+_I2C1_MasterIsRxBufFull                       text56       003564
+_I2C1_MasterIsStopFlagSet                     text74       00357A
+_I2C1_MasterIsTxBufEmpty                      text50       003538
+_I2C1_MasterOpen                              text25       003348
+_I2C1_MasterOperation                         text27       003196
+_I2C1_MasterResetBus                          text62       00366A
+_I2C1_MasterSendAck                           text55       0036BE
+_I2C1_MasterSendNack                          text54       0036B8
+_I2C1_MasterSendTxData                        text58       003694
+_I2C1_MasterSetCounter                        text59       00369C
+_I2C1_MasterStop                              text53       0036B2
+_I2C1_MasterWaitForEvent                      text29       003098
+_I2C1_MasterWrite                             text26       003674
+_I2C1_Open                                    text24       0029D4
+_I2C1_Poller                                  text28       0034B4
+_I2C1_SetAddressNackCallback                  text23       003498
+_I2C1_SetBuffer                               text72       00345A
+_I2C1_SetCallback                             text71       002CB4
+_I2C1_SetDataCompleteCallback                 text70       0034D0
+_I2C1_Status                                  bssCOMRAM    000501
+_I2C1_Write                                   text22       002DAE
+_I2C_LCD_Cmd                                  text18       003656
+_I2C_LCD_Init                                 text17       002BA4
+_INLVLA                                       (abs)        000404
+_INLVLB                                       (abs)        00040C
+_INLVLC                                       (abs)        000414
+_INLVLD                                       (abs)        00041C
+_INLVLE                                       (abs)        000424
+_INLVLF                                       (abs)        00042C
+_LATA                                         (abs)        0004BE
+_LATB                                         (abs)        0004BF
+_LATC                                         (abs)        0004C0
+_LATD                                         (abs)        0004C1
+_LATE                                         (abs)        0004C2
+_LATF                                         (abs)        0004C3
+_LATFbits                                     (abs)        0004C3
+_ODCONA                                       (abs)        000402
+_ODCONB                                       (abs)        00040A
+_ODCONC                                       (abs)        000412
+_ODCOND                                       (abs)        00041A
+_ODCONE                                       (abs)        000422
+_ODCONF                                       (abs)        00042A
+_OSCCON1                                      (abs)        0000AD
+_OSCCON3                                      (abs)        0000AF
+_OSCEN                                        (abs)        0000B3
+_OSCFRQ                                       (abs)        0000B1
+_OSCILLATOR_Initialize                        text14       00347C
+_OSCTUNE                                      (abs)        0000B0
+_PCF_Wr                                       text21       0035D0
+_PIE7bits                                     (abs)        0004A5
+_PIN_MANAGER_Initialize                       text13       00291A
+_PIR4bits                                     (abs)        0004B2
+_PIR7bits                                     (abs)        0004B5
+_PMD0                                         (abs)        000060
+_PMD1                                         (abs)        000061
+_PMD3                                         (abs)        000063
+_PMD4                                         (abs)        000064
+_PMD5                                         (abs)        000065
+_PMD6                                         (abs)        000066
+_PMD7                                         (abs)        000067
+_PMD8                                         (abs)        000068
+_PMD_Initialize                               text12       003414
+_RB1I2C                                       (abs)        000289
+_RB2I2C                                       (abs)        000288
+_RC3I2C                                       (abs)        000287
+_RC3PPS                                       (abs)        000214
+_RC4I2C                                       (abs)        000286
+_RC4PPS                                       (abs)        000215
+_RF1PPS                                       (abs)        00022A
+_SLRCONA                                      (abs)        000403
+_SLRCONB                                      (abs)        00040B
+_SLRCONC                                      (abs)        000413
+_SLRCOND                                      (abs)        00041B
+_SLRCONE                                      (abs)        000423
+_SLRCONF                                      (abs)        00042B
+_SYSTEM_Initialize                            text7        003508
+_TRISA                                        (abs)        0004C6
+_TRISB                                        (abs)        0004C7
+_TRISC                                        (abs)        0004C8
+_TRISD                                        (abs)        0004C9
+_TRISE                                        (abs)        0004CA
+_TRISF                                        (abs)        0004CB
+_U1BRGH                                       (abs)        0002AF
+_U1BRGL                                       (abs)        0002AE
+_U1CON0                                       (abs)        0002AB
+_U1CON0bits                                   (abs)        0002AB
+_U1CON1                                       (abs)        0002AC
+_U1CON2                                       (abs)        0002AD
+_U1ERRIE                                      (abs)        0002B3
+_U1ERRIR                                      (abs)        0002B2
+_U1ERRIRbits                                  (abs)        0002B2
+_U1FIFO                                       (abs)        0002B0
+_U1P1H                                        (abs)        0002A6
+_U1P1L                                        (abs)        0002A5
+_U1P2H                                        (abs)        0002A8
+_U1P2L                                        (abs)        0002A7
+_U1P3H                                        (abs)        0002AA
+_U1P3L                                        (abs)        0002A9
+_U1RXB                                        (abs)        0002A1
+_U1RXPPS                                      (abs)        000272
+_U1TXB                                        (abs)        0002A3
+_U1UIR                                        (abs)        0002B1
+_UART1_DefaultErrorHandler                    (abs)        000000
+_UART1_DefaultFramingErrorHandler             (abs)        000000
+_UART1_DefaultOverrunErrorHandler             (abs)        000000
+_UART1_ErrorHandler                           nvBANK5      000580
+_UART1_FramingErrorHandler                    nvCOMRAM     00055A
+_UART1_Initialize                             text8        002E24
+_UART1_OverrunErrorHandler                    nvCOMRAM     000557
+_UART1_SetErrorHandler                        text11       0035FC
+_UART1_SetFramingErrorHandler                 text10       0035EE
+_UART1_SetOverrunErrorHandler                 text9        0035E0
+_UART1_Write                                  text6        003522
+_WPUA                                         (abs)        000401
+_WPUB                                         (abs)        000409
+_WPUC                                         (abs)        000411
+_WPUD                                         (abs)        000419
+_WPUE                                         (abs)        000421
+_WPUF                                         (abs)        000429
+__HRAM                                        (abs)        000000
+__H__absolute__                               __absolute__ 000000
+__Habs1                                       abs1         000000
+__Hbank10                                     bank10       000000
+__Hbank11                                     bank11       000000
+__Hbank12                                     bank12       000000
+__Hbank13                                     bank13       000000
+__Hbank14                                     bank14       000000
+__Hbank15                                     bank15       000000
+__Hbank16                                     bank16       000000
+__Hbank17                                     bank17       000000
+__Hbank18                                     bank18       000000
+__Hbank19                                     bank19       000000
+__Hbank20                                     bank20       000000
+__Hbank21                                     bank21       000000
+__Hbank22                                     bank22       000000
+__Hbank23                                     bank23       000000
+__Hbank24                                     bank24       000000
+__Hbank25                                     bank25       000000
+__Hbank26                                     bank26       000000
+__Hbank27                                     bank27       000000
+__Hbank28                                     bank28       000000
+__Hbank29                                     bank29       000000
+__Hbank30                                     bank30       000000
+__Hbank31                                     bank31       000000
+__Hbank32                                     bank32       000000
+__Hbank33                                     bank33       000000
+__Hbank34                                     bank34       000000
+__Hbank35                                     bank35       000000
+__Hbank36                                     bank36       000000
+__Hbank5                                      bank5        000000
+__Hbank6                                      bank6        000000
+__Hbank7                                      bank7        000000
+__Hbank8                                      bank8        000000
+__Hbank9                                      bank9        000000
+__Hbigbss                                     bigbss       000000
+__Hbigdata                                    bigdata      000000
+__Hbigram                                     bigram       000000
+__Hbigsfr                                     bigsfr       000000
+__Hbss                                        bss          000000
+__HbssBANK5                                   bssBANK5     000000
+__HbssCOMRAM                                  bssCOMRAM    000000
+__Hcinit                                      cinit        000000
+__Hclrtext                                    clrtext      000000
+__Hcomram                                     comram       000000
+__Hconfig                                     config       30000A
+__Hconst                                      const        000000
+__HcstackCOMRAM                               cstackCOMRAM 000000
+__Hdata                                       data         000000
+__HdataCOMRAM                                 dataCOMRAM   000000
+__Heeprom_data                                eeprom_data  000000
+__Hfarbss                                     farbss       000000
+__Hfardata                                    fardata      000000
+__Hheap                                       heap         000000
+__Hibigdata                                   ibigdata     000000
+__Hidata                                      idata        000000
+__HidataCOMRAM                                idataCOMRAM  000000
+__Hidloc                                      idloc        000000
+__Hifardata                                   ifardata     000000
+__Hinit                                       init         020000
+__Hintsave_regs                               intsave_regs 000000
+__Hirdata                                     irdata       000000
+__Hmediumconst                                mediumconst  000000
+__HnvBANK5                                    nvBANK5      000000
+__HnvCOMRAM                                   nvCOMRAM     000000
+__HnvFARRAM                                   nvFARRAM     000000
+__Hnvbit                                      nvbit        000000
+__Hnvrram                                     nvrram       000000
+__Hparam                                      rparam       000000
+__Hpowerup                                    powerup      000000
+__Hram                                        ram          000000
+__Hramtop                                     ramtop       002600
+__Hrbit                                       rbit         000000
+__Hrbss                                       rbss         000000
+__Hrdata                                      rdata        000000
+__Hreset_vec                                  reset_vec    000004
+__Hrparam                                     rparam       000000
+__Hsfr                                        sfr          000000
+__Hsmallconst                                 smallconst   00266A
+__Hspace_0                                    (abs)        020000
+__Hspace_1                                    (abs)        000583
+__Hspace_2                                    (abs)        000000
+__Hspace_4                                    (abs)        60000A
+__Hstack                                      stack        000000
+__Hstruct                                     struct       000000
+__Htemp                                       temp         000000
+__Htext                                       text         000000
+__Htext0                                      text0        000000
+__Htext1                                      text1        000000
+__Htext10                                     text10       000000
+__Htext11                                     text11       000000
+__Htext12                                     text12       000000
+__Htext13                                     text13       000000
+__Htext14                                     text14       000000
+__Htext15                                     text15       000000
+__Htext16                                     text16       000000
+__Htext17                                     text17       000000
+__Htext18                                     text18       000000
+__Htext19                                     text19       000000
+__Htext2                                      text2        000000
+__Htext20                                     text20       000000
+__Htext21                                     text21       000000
+__Htext22                                     text22       000000
+__Htext23                                     text23       000000
+__Htext24                                     text24       000000
+__Htext25                                     text25       000000
+__Htext26                                     text26       000000
+__Htext27                                     text27       000000
+__Htext28                                     text28       000000
+__Htext29                                     text29       000000
+__Htext3                                      text3        000000
+__Htext30                                     text30       000000
+__Htext31                                     text31       000000
+__Htext32                                     text32       000000
+__Htext33                                     text33       000000
+__Htext34                                     text34       000000
+__Htext35                                     text35       000000
+__Htext36                                     text36       000000
+__Htext37                                     text37       000000
+__Htext38                                     text38       000000
+__Htext39                                     text39       000000
+__Htext4                                      text4        000000
+__Htext40                                     text40       000000
+__Htext41                                     text41       000000
+__Htext42                                     text42       000000
+__Htext43                                     text43       000000
+__Htext44                                     text44       000000
+__Htext45                                     text45       000000
+__Htext46                                     text46       000000
+__Htext47                                     text47       000000
+__Htext48                                     text48       000000
+__Htext49                                     text49       000000
+__Htext5                                      text5        000000
+__Htext50                                     text50       000000
+__Htext51                                     text51       000000
+__Htext52                                     text52       000000
+__Htext53                                     text53       000000
+__Htext54                                     text54       000000
+__Htext55                                     text55       000000
+__Htext56                                     text56       000000
+__Htext57                                     text57       000000
+__Htext58                                     text58       000000
+__Htext59                                     text59       000000
+__Htext6                                      text6        000000
+__Htext60                                     text60       000000
+__Htext61                                     text61       000000
+__Htext62                                     text62       000000
+__Htext63                                     text63       000000
+__Htext64                                     text64       000000
+__Htext65                                     text65       000000
+__Htext66                                     text66       000000
+__Htext67                                     text67       000000
+__Htext68                                     text68       000000
+__Htext69                                     text69       000000
+__Htext7                                      text7        000000
+__Htext70                                     text70       000000
+__Htext71                                     text71       000000
+__Htext72                                     text72       000000
+__Htext73                                     text73       000000
+__Htext74                                     text74       000000
+__Htext75                                     text75       000000
+__Htext76                                     text76       000000
+__Htext77                                     text77       000000
+__Htext78                                     text78       000000
+__Htext79                                     text79       000000
+__Htext8                                      text8        000000
+__Htext80                                     text80       000000
+__Htext81                                     text81       000000
+__Htext82                                     text82       000000
+__Htext83                                     text83       000000
+__Htext84                                     text84       000000
+__Htext9                                      text9        000000
+__LRAM                                        (abs)        000001
+__L__absolute__                               __absolute__ 000000
+__Labs1                                       abs1         000000
+__Lbank10                                     bank10       000000
+__Lbank11                                     bank11       000000
+__Lbank12                                     bank12       000000
+__Lbank13                                     bank13       000000
+__Lbank14                                     bank14       000000
+__Lbank15                                     bank15       000000
+__Lbank16                                     bank16       000000
+__Lbank17                                     bank17       000000
+__Lbank18                                     bank18       000000
+__Lbank19                                     bank19       000000
+__Lbank20                                     bank20       000000
+__Lbank21                                     bank21       000000
+__Lbank22                                     bank22       000000
+__Lbank23                                     bank23       000000
+__Lbank24                                     bank24       000000
+__Lbank25                                     bank25       000000
+__Lbank26                                     bank26       000000
+__Lbank27                                     bank27       000000
+__Lbank28                                     bank28       000000
+__Lbank29                                     bank29       000000
+__Lbank30                                     bank30       000000
+__Lbank31                                     bank31       000000
+__Lbank32                                     bank32       000000
+__Lbank33                                     bank33       000000
+__Lbank34                                     bank34       000000
+__Lbank35                                     bank35       000000
+__Lbank36                                     bank36       000000
+__Lbank5                                      bank5        000000
+__Lbank6                                      bank6        000000
+__Lbank7                                      bank7        000000
+__Lbank8                                      bank8        000000
+__Lbank9                                      bank9        000000
+__Lbigbss                                     bigbss       000000
+__Lbigdata                                    bigdata      000000
+__Lbigram                                     bigram       000000
+__Lbigsfr                                     bigsfr       000000
+__Lbss                                        bss          000000
+__LbssBANK5                                   bssBANK5     000000
+__LbssCOMRAM                                  bssCOMRAM    000000
+__Lcinit                                      cinit        000000
+__Lclrtext                                    clrtext      000000
+__Lcomram                                     comram       000000
+__Lconfig                                     config       000000
+__Lconst                                      const        000000
+__LcstackCOMRAM                               cstackCOMRAM 000000
+__Ldata                                       data         000000
+__LdataCOMRAM                                 dataCOMRAM   000000
+__Leeprom_data                                eeprom_data  000000
+__Lfarbss                                     farbss       000000
+__Lfardata                                    fardata      000000
+__Lheap                                       heap         000000
+__Libigdata                                   ibigdata     000000
+__Lidata                                      idata        000000
+__LidataCOMRAM                                idataCOMRAM  000000
+__Lidloc                                      idloc        000000
+__Lifardata                                   ifardata     000000
+__Linit                                       init         01FFFC
+__Lintsave_regs                               intsave_regs 000000
+__Lirdata                                     irdata       000000
+__Lmediumconst                                mediumconst  000000
+__LnvBANK5                                    nvBANK5      000000
+__LnvCOMRAM                                   nvCOMRAM     000000
+__LnvFARRAM                                   nvFARRAM     000000
+__Lnvbit                                      nvbit        000000
+__Lnvrram                                     nvrram       000000
+__Lparam                                      rparam       000000
+__Lpowerup                                    powerup      000000
+__Lram                                        ram          000000
+__Lramtop                                     ramtop       002600
+__Lrbit                                       rbit         000000
+__Lrbss                                       rbss         000000
+__Lrdata                                      rdata        000000
+__Lreset_vec                                  reset_vec    000000
+__Lrparam                                     rparam       000000
+__Lsfr                                        sfr          000000
+__Lsmallconst                                 smallconst   002600
+__Lspace_0                                    (abs)        000000
+__Lspace_1                                    (abs)        000000
+__Lspace_2                                    (abs)        000000
+__Lspace_4                                    (abs)        000000
+__Lstack                                      stack        000000
+__Lstruct                                     struct       000000
+__Ltemp                                       temp         000000
+__Ltext                                       text         000000
+__Ltext0                                      text0        000000
+__Ltext1                                      text1        000000
+__Ltext10                                     text10       000000
+__Ltext11                                     text11       000000
+__Ltext12                                     text12       000000
+__Ltext13                                     text13       000000
+__Ltext14                                     text14       000000
+__Ltext15                                     text15       000000
+__Ltext16                                     text16       000000
+__Ltext17                                     text17       000000
+__Ltext18                                     text18       000000
+__Ltext19                                     text19       000000
+__Ltext2                                      text2        000000
+__Ltext20                                     text20       000000
+__Ltext21                                     text21       000000
+__Ltext22                                     text22       000000
+__Ltext23                                     text23       000000
+__Ltext24                                     text24       000000
+__Ltext25                                     text25       000000
+__Ltext26                                     text26       000000
+__Ltext27                                     text27       000000
+__Ltext28                                     text28       000000
+__Ltext29                                     text29       000000
+__Ltext3                                      text3        000000
+__Ltext30                                     text30       000000
+__Ltext31                                     text31       000000
+__Ltext32                                     text32       000000
+__Ltext33                                     text33       000000
+__Ltext34                                     text34       000000
+__Ltext35                                     text35       000000
+__Ltext36                                     text36       000000
+__Ltext37                                     text37       000000
+__Ltext38                                     text38       000000
+__Ltext39                                     text39       000000
+__Ltext4                                      text4        000000
+__Ltext40                                     text40       000000
+__Ltext41                                     text41       000000
+__Ltext42                                     text42       000000
+__Ltext43                                     text43       000000
+__Ltext44                                     text44       000000
+__Ltext45                                     text45       000000
+__Ltext46                                     text46       000000
+__Ltext47                                     text47       000000
+__Ltext48                                     text48       000000
+__Ltext49                                     text49       000000
+__Ltext5                                      text5        000000
+__Ltext50                                     text50       000000
+__Ltext51                                     text51       000000
+__Ltext52                                     text52       000000
+__Ltext53                                     text53       000000
+__Ltext54                                     text54       000000
+__Ltext55                                     text55       000000
+__Ltext56                                     text56       000000
+__Ltext57                                     text57       000000
+__Ltext58                                     text58       000000
+__Ltext59                                     text59       000000
+__Ltext6                                      text6        000000
+__Ltext60                                     text60       000000
+__Ltext61                                     text61       000000
+__Ltext62                                     text62       000000
+__Ltext63                                     text63       000000
+__Ltext64                                     text64       000000
+__Ltext65                                     text65       000000
+__Ltext66                                     text66       000000
+__Ltext67                                     text67       000000
+__Ltext68                                     text68       000000
+__Ltext69                                     text69       000000
+__Ltext7                                      text7        000000
+__Ltext70                                     text70       000000
+__Ltext71                                     text71       000000
+__Ltext72                                     text72       000000
+__Ltext73                                     text73       000000
+__Ltext74                                     text74       000000
+__Ltext75                                     text75       000000
+__Ltext76                                     text76       000000
+__Ltext77                                     text77       000000
+__Ltext78                                     text78       000000
+__Ltext79                                     text79       000000
+__Ltext8                                      text8        000000
+__Ltext80                                     text80       000000
+__Ltext81                                     text81       000000
+__Ltext82                                     text82       000000
+__Ltext83                                     text83       000000
+__Ltext84                                     text84       000000
+__Ltext9                                      text9        000000
+__S0                                          (abs)        020000
+__S1                                          (abs)        000583
+__S4                                          (abs)        000000
+__S5                                          (abs)        000000
+___heap_hi                                    (abs)        000000
+___heap_lo                                    (abs)        000000
+___inthi_sp                                   stack        000000
+___intlo_sp                                   stack        000000
+___param_bank                                 (abs)        000000
+___rparam_used                                (abs)        000001
+___sp                                         stack        000000
+__accesstop                                   (abs)        000560
+__activetblptr                                (abs)        000003
+__end_of_ADCC_Initialize                      text16       00303E
+__end_of_I2C1_CallbackReturnReset             text63       0036F4
+__end_of_I2C1_CallbackReturnStop              text64       0036F8
+__end_of_I2C1_ClearInterruptFlags             text73       003196
+__end_of_I2C1_Close                           text80       0033C6
+__end_of_I2C1_DO_ADDRESS_NACK                 text33       002F78
+__end_of_I2C1_DO_BUS_COLLISION                text32       002F0C
+__end_of_I2C1_DO_BUS_ERROR                    text31       003618
+__end_of_I2C1_DO_IDLE                         text48       00366A
+__end_of_I2C1_DO_RESET                        text34       003626
+__end_of_I2C1_DO_RX                           text44       002BA4
+__end_of_I2C1_DO_RX_ACK                       text37       00368C
+__end_of_I2C1_DO_RX_EMPTY                     text42       002B14
+__end_of_I2C1_DO_RX_NACK_RESTART              text35       003684
+__end_of_I2C1_DO_RX_NACK_STOP                 text36       003634
+__end_of_I2C1_DO_SEND_ADR_READ                text47       00339C
+__end_of_I2C1_DO_SEND_ADR_WRITE               text46       0035D0
+__end_of_I2C1_DO_SEND_RESTART                 text39       0036EC
+__end_of_I2C1_DO_SEND_RESTART_READ            text41       003640
+__end_of_I2C1_DO_SEND_RESTART_WRITE           text40       0036F0
+__end_of_I2C1_DO_SEND_STOP                    text38       0033EE
+__end_of_I2C1_DO_TX                           text45       00278A
+__end_of_I2C1_DO_TX_ACK                       text49       003694
+__end_of_I2C1_DO_TX_EMPTY                     text43       002DAE
+__end_of_I2C1_Initialize                      text15       00345A
+__end_of_I2C1_MasterClearCountFlag            text79       0036E8
+__end_of_I2C1_MasterClearIrq                  text83       0036AC
+__end_of_I2C1_MasterClearNackFlag             text78       0036E2
+__end_of_I2C1_MasterClearStopFlag             text77       0036DC
+__end_of_I2C1_MasterClose                     text82       00364C
+__end_of_I2C1_MasterDisableIrq                text81       003508
+__end_of_I2C1_MasterDisableRestart            text61       0036D6
+__end_of_I2C1_MasterEnableRestart             text60       0036D0
+__end_of_I2C1_MasterFsm                       text30       002FE2
+__end_of_I2C1_MasterGetCounter                text52       0036B2
+__end_of_I2C1_MasterGetRxData                 text57       0036CA
+__end_of_I2C1_MasterIsCountFlagSet            text76       0035BC
+__end_of_I2C1_MasterIsNack                    text51       003564
+__end_of_I2C1_MasterIsNackFlagSet             text75       0035A6
+__end_of_I2C1_MasterIsRxBufFull               text56       00357A
+__end_of_I2C1_MasterIsStopFlagSet             text74       003590
+__end_of_I2C1_MasterIsTxBufEmpty              text50       00354E
+__end_of_I2C1_MasterOpen                      text25       003372
+__end_of_I2C1_MasterOperation                 text27       0031E2
+__end_of_I2C1_MasterResetBus                  text62       003674
+__end_of_I2C1_MasterSendAck                   text55       0036C4
+__end_of_I2C1_MasterSendNack                  text54       0036BE
+__end_of_I2C1_MasterSendTxData                text58       00369C
+__end_of_I2C1_MasterSetCounter                text59       0036A4
+__end_of_I2C1_MasterStop                      text53       0036B8
+__end_of_I2C1_MasterWaitForEvent              text29       0030F2
+__end_of_I2C1_MasterWrite                     text26       00367C
+__end_of_I2C1_Open                            text24       002A76
+__end_of_I2C1_Poller                          text28       0034D0
+__end_of_I2C1_SetAddressNackCallback          text23       0034B4
+__end_of_I2C1_SetBuffer                       text72       00347C
+__end_of_I2C1_SetCallback                     text71       002D34
+__end_of_I2C1_SetDataCompleteCallback         text70       0034EC
+__end_of_I2C1_Write                           text22       002E24
+__end_of_I2C_LCD_Cmd                          text18       003660
+__end_of_I2C_LCD_Init                         text17       002C2E
+__end_of_OSCILLATOR_Initialize                text14       003498
+__end_of_PCF_Wr                               text21       0035E0
+__end_of_PIN_MANAGER_Initialize               text13       0029D4
+__end_of_PMD_Initialize                       text12       003438
+__end_of_SYSTEM_Initialize                    text7        003522
+__end_of_UART1_Initialize                     text8        002E98
+__end_of_UART1_SetErrorHandler                text11       00360A
+__end_of_UART1_SetFramingErrorHandler         text10       0035FC
+__end_of_UART1_SetOverrunErrorHandler         text9        0035EE
+__end_of_UART1_Write                          text6        003538
+__end_of__initialization                      cinit        003256
+__end_of_fputc                                text4        002854
+__end_of_i2c1_fsmStateTable                   smallconst   00263A
+__end_of_loadPCF                              text20       003098
+__end_of_main                                 text0        00291A
+__end_of_printf                               text1        003414
+__end_of_putch                                text5        003656
+__end_of_rd1RegCompleteHandler                text68       0032EC
+__end_of_rd2RegCompleteHandler                text67       0032BC
+__end_of_rdBlkRegCompleteHandler              text65       003226
+__end_of_sendCMD                              text19       003348
+__end_of_vfpfcnvrt                            text3        002CB4
+__end_of_vfprintf                             text2        003144
+__end_of_wr1RegCompleteHandler                text66       00328C
+__end_of_wr2RegCompleteHandler                text69       00331C
+__initialization                              cinit        003226
+__lcd_params                                  bssCOMRAM    000530
+__mediumconst                                 mediumconst  000000
+__pbssBANK5                                   bssBANK5     000560
+__pbssCOMRAM                                  bssCOMRAM    000501
+__pcinit                                      cinit        003226
+__pcstackCOMRAM                               cstackCOMRAM 000532
+__pdataCOMRAM                                 dataCOMRAM   00055D
+__pidataCOMRAM                                idataCOMRAM  0036F8
+__pnvBANK5                                    nvBANK5      000580
+__pnvCOMRAM                                   nvCOMRAM     000557
+__psmallconst                                 smallconst   002600
+__ptext0                                      text0        002854
+__ptext1                                      text1        0033EE
+__ptext10                                     text10       0035EE
+__ptext11                                     text11       0035FC
+__ptext12                                     text12       003414
+__ptext13                                     text13       00291A
+__ptext14                                     text14       00347C
+__ptext15                                     text15       003438
+__ptext16                                     text16       002FE2
+__ptext17                                     text17       002BA4
+__ptext18                                     text18       003656
+__ptext19                                     text19       00331C
+__ptext2                                      text2        0030F2
+__ptext20                                     text20       00303E
+__ptext21                                     text21       0035D0
+__ptext22                                     text22       002DAE
+__ptext23                                     text23       003498
+__ptext24                                     text24       0029D4
+__ptext25                                     text25       003348
+__ptext26                                     text26       003674
+__ptext27                                     text27       003196
+__ptext28                                     text28       0034B4
+__ptext29                                     text29       003098
+__ptext3                                      text3        002C2E
+__ptext30                                     text30       002F78
+__ptext31                                     text31       00360A
+__ptext32                                     text32       002E98
+__ptext33                                     text33       002F0C
+__ptext34                                     text34       003618
+__ptext35                                     text35       00367C
+__ptext36                                     text36       003626
+__ptext37                                     text37       003684
+__ptext38                                     text38       0033C6
+__ptext39                                     text39       0036E8
+__ptext4                                      text4        00278A
+__ptext40                                     text40       0036EC
+__ptext41                                     text41       003634
+__ptext42                                     text42       002A76
+__ptext43                                     text43       002D34
+__ptext44                                     text44       002B14
+__ptext45                                     text45       00266A
+__ptext46                                     text46       0035BC
+__ptext47                                     text47       003372
+__ptext48                                     text48       003660
+__ptext49                                     text49       00368C
+__ptext5                                      text5        00364C
+__ptext50                                     text50       003538
+__ptext51                                     text51       00354E
+__ptext52                                     text52       0036AC
+__ptext53                                     text53       0036B2
+__ptext54                                     text54       0036B8
+__ptext55                                     text55       0036BE
+__ptext56                                     text56       003564
+__ptext57                                     text57       0036C4
+__ptext58                                     text58       003694
+__ptext59                                     text59       00369C
+__ptext6                                      text6        003522
+__ptext60                                     text60       0036CA
+__ptext61                                     text61       0036D0
+__ptext62                                     text62       00366A
+__ptext63                                     text63       0036F0
+__ptext64                                     text64       0036F4
+__ptext65                                     text65       0031E2
+__ptext66                                     text66       00325C
+__ptext67                                     text67       00328C
+__ptext68                                     text68       0032BC
+__ptext69                                     text69       0032EC
+__ptext7                                      text7        003508
+__ptext70                                     text70       0034D0
+__ptext71                                     text71       002CB4
+__ptext72                                     text72       00345A
+__ptext73                                     text73       003144
+__ptext74                                     text74       00357A
+__ptext75                                     text75       003590
+__ptext76                                     text76       0035A6
+__ptext77                                     text77       0036D6
+__ptext78                                     text78       0036DC
+__ptext79                                     text79       0036E2
+__ptext8                                      text8        002E24
+__ptext80                                     text80       00339C
+__ptext81                                     text81       0034EC
+__ptext82                                     text82       003640
+__ptext83                                     text83       0036A4
+__ptext84                                     text84       000000
+__ptext9                                      text9        0035E0
+__ramtop                                      ramtop       002600
+__smallconst                                  smallconst   002600
+_flags                                        bssCOMRAM    00052F
+_fputc                                        text4        00278A
+_i2c1_fsmStateTable                           smallconst   002601
+_loadPCF                                      text20       00303E
+_main                                         text0        002854
+_prec                                         bssCOMRAM    00052D
+_printf                                       text1        0033EE
+_putch                                        text5        00364C
+_rd1RegCompleteHandler                        text68       0032BC
+_rd2RegCompleteHandler                        text67       00328C
+_rdBlkRegCompleteHandler                      text65       0031E2
+_sendCMD                                      text19       00331C
+_uart1RxLastError                             bssCOMRAM    000531
+_vfpfcnvrt                                    text3        002C2E
+_vfprintf                                     text2        0030F2
+_width                                        bssCOMRAM    00052B
+_wr1RegCompleteHandler                        text66       00325C
+_wr2RegCompleteHandler                        text69       0032EC
+end_of_initialization                         cinit        003256
+fputc@c                                       cstackCOMRAM 000534
+fputc@fp                                      cstackCOMRAM 000536
+intlevel0                                     text         000000
+intlevel1                                     text         000000
+intlevel2                                     text         000000
+intlevel3                                     text         000000
+isa$std                                       (abs)        000001
+isa$xinst                                     (abs)        000000
+loadPCF@dato                                  cstackCOMRAM 00054D
+loadPCF@mode                                  cstackCOMRAM 00054A
+printf@ap                                     cstackCOMRAM 00054D
+printf@fmt                                    cstackCOMRAM 00054B
+putch@txData                                  cstackCOMRAM 000533
+rd1RegCompleteHandler@ptr                     cstackCOMRAM 00053D
+rd2RegCompleteHandler@ptr                     cstackCOMRAM 00053D
+rdBlkRegCompleteHandler@ptr                   cstackCOMRAM 00053D
+sendCMD@cmd                                   cstackCOMRAM 000551
+sendCMD@nibbleH                               cstackCOMRAM 00054F
+sendCMD@nibbleL                               cstackCOMRAM 000550
+stackhi                                       (abs)        000000
+stacklo                                       (abs)        000000
+start                                         init         01FFFC
+start_initialization                          cinit        003226
+vfpfcnvrt@ap                                  cstackCOMRAM 000541
+vfpfcnvrt@fmt                                 cstackCOMRAM 00053F
+vfpfcnvrt@fp                                  cstackCOMRAM 00053D
+vfprintf@ap                                   cstackCOMRAM 000547
+vfprintf@cfmt                                 cstackCOMRAM 000549
+vfprintf@fmt                                  cstackCOMRAM 000545
+vfprintf@fp                                   cstackCOMRAM 000543
+wr1RegCompleteHandler@ptr                     cstackCOMRAM 00053D
+wr2RegCompleteHandler@ptr                     cstackCOMRAM 00053D
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+mcc_generated_files/examples/i2c1_master_example.c
+		_wr1RegCompleteHandler		CODE           	325C	0000	48
+		_wr2RegCompleteHandler		CODE           	32EC	0000	48
+		_I2C1_Write    		CODE           	2DAE	0000	118
+		_rdBlkRegCompleteHandler		CODE           	31E2	0000	68
+		_rd1RegCompleteHandler		CODE           	32BC	0000	48
+		_rd2RegCompleteHandler		CODE           	328C	0000	48
+
+mcc_generated_files/examples/i2c1_master_example.c estimated size: 378
+
+mcc_generated_files/i2c1_master.c
+		_I2C1_DO_SEND_RESTART		CODE           	36E8	0000	4
+		_I2C1_MasterIsNackFlagSet		CODE           	3590	0000	22
+		_I2C1_DO_RX_EMPTY		CODE           	2A76	0000	158
+		_I2C1_DO_TX_EMPTY		CODE           	2D34	0000	122
+		_I2C1_DO_SEND_RESTART_READ		CODE           	3634	0000	12
+		_I2C1_MasterClearNackFlag		CODE           	36DC	0000	6
+		_I2C1_CallbackReturnStop		CODE           	36F4	0000	4
+		_I2C1_DO_RX    		CODE           	2B14	0000	144
+		_I2C1_DO_TX    		CODE           	266A	0000	288
+		_I2C1_SetAddressNackCallback		CODE           	3498	0000	28
+		_I2C1_DO_IDLE  		CODE           	3660	0000	10
+		_I2C1_MasterOpen		CODE           	3348	0000	42
+		_I2C1_MasterSendTxData		CODE           	3694	0000	8
+		_I2C1_MasterStop		CODE           	36B2	0000	6
+		_I2C1_MasterIsStopFlagSet		CODE           	357A	0000	22
+		_I2C1_CallbackReturnReset		CODE           	36F0	0000	4
+		_I2C1_DO_RESET 		CODE           	3618	0000	14
+		_I2C1_Poller   		CODE           	34B4	0000	28
+		_I2C1_DO_RX_ACK		CODE           	3684	0000	8
+		_I2C1_DO_TX_ACK		CODE           	368C	0000	8
+		_I2C1_MasterWaitForEvent		CODE           	3098	0000	90
+		_I2C1_MasterSendNack		CODE           	36B8	0000	6
+		_I2C1_DO_RX_NACK_RESTART		CODE           	367C	0000	8
+		_I2C1_MasterDisableIrq		CODE           	34EC	0000	28
+		_I2C1_ClearInterruptFlags		CODE           	3144	0000	82
+		_I2C1_MasterOperation		CODE           	3196	0000	76
+		_I2C1_MasterClearStopFlag		CODE           	36D6	0000	6
+		_I2C1_SetCallback		CODE           	2CB4	0000	128
+		_I2C1_MasterEnableRestart		CODE           	36CA	0000	6
+		_I2C1_MasterGetCounter		CODE           	36AC	0000	6
+		_I2C1_MasterSetCounter		CODE           	369C	0000	8
+		_I2C1_Open     		CODE           	29D4	0000	162
+		_I2C1_DO_ADDRESS_NACK		CODE           	2F0C	0000	108
+		_I2C1_MasterDisableRestart		CODE           	36D0	0000	6
+		_I2C1_MasterClearCountFlag		CODE           	36E2	0000	6
+		_I2C1_SetBuffer		CODE           	345A	0000	34
+		_I2C1_DO_SEND_RESTART_WRITE		CODE           	36EC	0000	4
+		_I2C1_MasterIsTxBufEmpty		CODE           	3538	0000	22
+		_I2C1_MasterClose		CODE           	3640	0000	12
+		_I2C1_MasterWrite		CODE           	3674	0000	8
+		_I2C1_Initialize		CODE           	3438	0000	34
+		_I2C1_Close    		CODE           	339C	0000	42
+		_I2C1_MasterIsRxBufFull		CODE           	3564	0000	22
+		_I2C1_MasterIsNack		CODE           	354E	0000	22
+		_I2C1_DO_SEND_ADR_WRITE		CODE           	35BC	0000	20
+		_I2C1_MasterClearIrq		CODE           	36A4	0000	8
+		_I2C1_SetDataCompleteCallback		CODE           	34D0	0000	28
+		_I2C1_DO_SEND_STOP		CODE           	33C6	0000	40
+		_I2C1_DO_BUS_COLLISION		CODE           	2E98	0000	116
+		_I2C1_DO_BUS_ERROR		CODE           	360A	0000	14
+		_I2C1_MasterSendAck		CODE           	36BE	0000	6
+		_I2C1_MasterFsm		CODE           	2F78	0000	106
+		_I2C1_MasterGetRxData		CODE           	36C4	0000	6
+		_I2C1_MasterResetBus		CODE           	366A	0000	10
+		_I2C1_MasterIsCountFlagSet		CODE           	35A6	0000	22
+		_I2C1_DO_SEND_ADR_READ		CODE           	3372	0000	42
+		_I2C1_DO_RX_NACK_STOP		CODE           	3626	0000	14
+
+mcc_generated_files/i2c1_master.c estimated size: 2296
+
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c
+		_fputc         		CODE           	278A	0000	202
+
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\nf_fputc.c estimated size: 202
+
+mcc_generated_files/pin_manager.c
+		_PIN_MANAGER_Initialize		CODE           	291A	0000	186
+
+mcc_generated_files/pin_manager.c estimated size: 186
+
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c
+		_vfpfcnvrt     		CODE           	2C2E	0000	134
+		_vfprintf      		CODE           	30F2	0000	82
+
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\doprnt.c estimated size: 216
+
+mcc_generated_files/uart1.c
+		_UART1_Write   		CODE           	3522	0000	22
+		_putch         		CODE           	364C	0000	10
+		_UART1_SetFramingErrorHandler		CODE           	35EE	0000	14
+		_UART1_SetOverrunErrorHandler		CODE           	35E0	0000	14
+		_UART1_Initialize		CODE           	2E24	0000	116
+		_UART1_SetErrorHandler		CODE           	35FC	0000	14
+
+mcc_generated_files/uart1.c estimated size: 190
+
+shared
+		__initialization		CODE           	3226	0000	48
+		_i2c1_fsmStateTable		SMALLCONST     	2601	0000	57
+
+shared estimated size: 105
+
+mcc_generated_files/mcc.c
+		_PMD_Initialize		CODE           	3414	0000	36
+		_OSCILLATOR_Initialize		CODE           	347C	0000	28
+		_SYSTEM_Initialize		CODE           	3508	0000	26
+
+mcc_generated_files/mcc.c estimated size: 90
+
+LCD_I2C_LIB.c
+		_loadPCF       		CODE           	303E	0000	90
+		_sendCMD       		CODE           	331C	0000	44
+		_PCF_Wr        		CODE           	35D0	0000	16
+		_I2C_LCD_Cmd   		CODE           	3656	0000	10
+		_I2C_LCD_Init  		CODE           	2BA4	0000	138
+
+LCD_I2C_LIB.c estimated size: 298
+
+mcc_generated_files/adcc.c
+		_ADCC_Initialize		CODE           	2FE2	0000	92
+
+mcc_generated_files/adcc.c estimated size: 92
+
+main.c
+		_main          		CODE           	2854	0000	198
+
+main.c estimated size: 198
+
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\printf.c
+		_printf        		CODE           	33EE	0000	38
+
+C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\printf.c estimated size: 38
+

@@ -1,0 +1,600 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"11 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\adc.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"18
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"615
+[v _utoa utoa `(i  1 s 2 utoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"12 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\i2c.c
+[v _I2C_Init_Master I2C_Init_Master `(v  1 e 1 0 ]
+"27
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"34
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"64
+[v _I2C_Write I2C_Write `(s  1 e 2 0 ]
+"24 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\OLED_Datos.c
+[v _main main `(v  1 e 1 0 ]
+"391 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\ssd1306_oled.c
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+"446
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+"465
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+"504
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+"523
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+"536
+[v _OLED_Line OLED_Line `(v  1 e 1 0 ]
+"596
+[v _OLED_V_Line OLED_V_Line `(v  1 e 1 0 ]
+"612
+[v _OLED_H_Line OLED_H_Line `(v  1 e 1 0 ]
+"628
+[v _OLED_Rectangle OLED_Rectangle `(v  1 e 1 0 ]
+"694
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+"767
+[v _OLED_Write_Text OLED_Write_Text `(v  1 e 1 0 ]
+"780
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+"800
+[v _width width `(uc  1 s 1 width ]
+"805
+[v _height height `(uc  1 s 1 height ]
+[s S69 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S78 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S87 . 1 `S69 1 . 1 0 `S78 1 . 1 0 ]
+[v _LATDbits LATDbits `VES87  1 e 1 @3980 ]
+[s S269 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[s S278 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S287 . 1 `S269 1 . 1 0 `S278 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES287  1 e 1 @3987 ]
+[s S29 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4033
+[s S38 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+[u S47 . 1 `S29 1 . 1 0 `S38 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES47  1 e 1 @3989 ]
+[s S334 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4492
+[s S343 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S349 . 1 `S334 1 . 1 0 `S343 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES349  1 e 1 @3998 ]
+"6510
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6666
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S187 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6710
+[s S190 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S194 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S201 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S204 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S207 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S210 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S213 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S216 . 1 `S187 1 . 1 0 `S190 1 . 1 0 `S194 1 . 1 0 `S201 1 . 1 0 `S204 1 . 1 0 `S207 1 . 1 0 `S210 1 . 1 0 `S213 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES216  1 e 1 @4034 ]
+"6785
+[v _ADRES ADRES `VEus  1 e 2 @4035 ]
+"6806
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S313 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"6823
+[u S322 . 1 `S313 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES322  1 e 1 @4037 ]
+"6868
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"6938
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"7186
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"7193
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width@doprnt$F1078 width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"22 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\OLED_Datos.c
+[v _buffer buffer `[20]uc  1 e 20 0 ]
+"3 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\ssd1306_oled.c
+[v _FONT_1 FONT_1 `C[581]uc  1 e 581 0 ]
+"104
+[v _FONT_2 FONT_2 `C[1524]uc  1 e 1524 0 ]
+"203
+[v _FONT_3 FONT_3 `C[3044]uc  1 e 3044 0 ]
+[s S404 _Current_Font_s 7 `*.25Cuc 1 font 2 0 `uc 1 x_size 1 2 `uc 1 y_size 1 3 `uc 1 offset 1 4 `uc 1 numchars 1 5 `uc 1 inverted 1 6 ]
+"307
+[v _cfont cfont `S404  1 s 7 cfont ]
+"308
+[v _buffer@ssd1306_oled$F465 buffer `[1024]uc  1 s 1024 buffer ]
+"24 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\OLED_Datos.c
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+[v main@valor_adc valor_adc `i  1 a 2 91 ]
+"58
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S1031 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+"13
+[v sprintf@f f `S1031  1 a 6 2 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 0 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 85 ]
+[v sprintf@fmt fmt `*.25Cuc  1 p 2 87 ]
+"23
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 83 ]
+[s S1057 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S1057  1 p 2 77 ]
+[v vfprintf@fmt fmt `*.25Cuc  1 p 2 79 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 81 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"697
+[v vfpfcnvrt@llu llu `uo  1 a 8 69 ]
+[s S1057 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S1057  1 p 2 59 ]
+[v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 61 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 63 ]
+"1387
+} 0
+"615
+[v _utoa utoa `(i  1 s 2 utoa ]
+{
+"618
+[v utoa@n n `uo  1 a 8 49 ]
+"617
+[v utoa@i i `i  1 a 2 57 ]
+[v utoa@w w `i  1 a 2 47 ]
+[v utoa@p p `i  1 a 2 45 ]
+[s S1057 _IO_FILE 0 ]
+"615
+[v utoa@fp fp `*.39S1057  1 p 2 27 ]
+[v utoa@d d `uo  1 p 8 29 ]
+"641
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 25 ]
+[v pad@i i `i  1 a 2 23 ]
+[s S1057 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S1057  1 p 2 16 ]
+[v pad@buf buf `*.39uc  1 p 2 18 ]
+[v pad@p p `i  1 p 2 20 ]
+"95
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 14 ]
+"10
+[v fputs@c c `uc  1 a 1 13 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 9 ]
+[s S1031 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S1031  1 p 2 11 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[s S1031 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S1031  1 p 2 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+{
+"12
+[v ___lomod@counter counter `uc  1 a 1 16 ]
+"9
+[v ___lomod@dividend dividend `uo  1 p 8 0 ]
+[v ___lomod@divisor divisor `uo  1 p 8 8 ]
+"27
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+{
+"12
+[v ___lodiv@quotient quotient `uo  1 a 8 16 ]
+"13
+[v ___lodiv@counter counter `uc  1 a 1 24 ]
+"9
+[v ___lodiv@dividend dividend `uo  1 p 8 0 ]
+[v ___lodiv@divisor divisor `uo  1 p 8 8 ]
+"32
+} 0
+"767 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\ssd1306_oled.c
+[v _OLED_Write_Text OLED_Write_Text `(v  1 e 1 0 ]
+{
+"770
+[v OLED_Write_Text@length length `uc  1 a 1 54 ]
+"769
+[v OLED_Write_Text@cnt cnt `uc  1 a 1 53 ]
+"767
+[v OLED_Write_Text@x x `s  1 p 2 45 ]
+[v OLED_Write_Text@y y `s  1 p 2 47 ]
+[v OLED_Write_Text@text text `*.35uc  1 p 2 49 ]
+"778
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.35Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.35Cuc  1 p 2 0 ]
+"12
+} 0
+"694 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\ssd1306_oled.c
+[v _OLED_Write OLED_Write `(v  1 e 1 0 ]
+{
+"698
+[v OLED_Write@cnt cnt `us  1 a 2 42 ]
+"697
+[v OLED_Write@rowcnt rowcnt `us  1 a 2 40 ]
+"701
+[v OLED_Write@cy cy `s  1 a 2 38 ]
+[v OLED_Write@cx cx `s  1 a 2 36 ]
+"696
+[v OLED_Write@font_idx font_idx `us  1 a 2 34 ]
+"702
+[v OLED_Write@cbit cbit `s  1 a 2 32 ]
+"701
+[v OLED_Write@cbyte cbyte `s  1 a 2 30 ]
+"700
+[v OLED_Write@temp temp `us  1 a 2 28 ]
+"699
+[v OLED_Write@b b `uc  1 a 1 44 ]
+"694
+[v OLED_Write@x x `s  1 p 2 18 ]
+[v OLED_Write@y y `s  1 p 2 20 ]
+[v OLED_Write@value value `uc  1 p 1 22 ]
+"765
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 12 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 8 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 10 ]
+"53
+} 0
+"446 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\ssd1306_oled.c
+[v _OLED_SetFont OLED_SetFont `(v  1 e 1 0 ]
+{
+[v OLED_SetFont@font font `*.25Cuc  1 p 2 0 ]
+"454
+} 0
+"628
+[v _OLED_Rectangle OLED_Rectangle `(v  1 e 1 0 ]
+{
+[v OLED_Rectangle@x1 x1 `s  1 p 2 28 ]
+[v OLED_Rectangle@y1 y1 `s  1 p 2 30 ]
+[v OLED_Rectangle@x2 x2 `s  1 p 2 32 ]
+[v OLED_Rectangle@y2 y2 `s  1 p 2 34 ]
+[v OLED_Rectangle@color color `uc  1 p 1 36 ]
+"634
+} 0
+"596
+[v _OLED_V_Line OLED_V_Line `(v  1 e 1 0 ]
+{
+"598
+[v OLED_V_Line@temp temp `s  1 a 2 26 ]
+"596
+[v OLED_V_Line@y_start y_start `s  1 p 2 18 ]
+[v OLED_V_Line@y_end y_end `s  1 p 2 20 ]
+[v OLED_V_Line@x_pos x_pos `s  1 p 2 22 ]
+[v OLED_V_Line@color color `uc  1 p 1 24 ]
+"610
+} 0
+"612
+[v _OLED_H_Line OLED_H_Line `(v  1 e 1 0 ]
+{
+"614
+[v OLED_H_Line@temp temp `s  1 a 2 26 ]
+"612
+[v OLED_H_Line@x_start x_start `s  1 p 2 18 ]
+[v OLED_H_Line@x_end x_end `s  1 p 2 20 ]
+[v OLED_H_Line@y_pos y_pos `s  1 p 2 22 ]
+[v OLED_H_Line@color color `uc  1 p 1 24 ]
+"626
+} 0
+"523
+[v _OLED_DrawPixel OLED_DrawPixel `(v  1 e 1 0 ]
+{
+[v OLED_DrawPixel@x x `s  1 p 2 8 ]
+[v OLED_DrawPixel@y y `s  1 p 2 10 ]
+[v OLED_DrawPixel@color color `uc  1 p 1 12 ]
+"534
+} 0
+"800
+[v _width width `(uc  1 s 1 width ]
+{
+"803
+} 0
+"805
+[v _height height `(uc  1 s 1 height ]
+{
+"808
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"391 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\ssd1306_oled.c
+[v _OLED_Init OLED_Init `(v  1 e 1 0 ]
+{
+"434
+} 0
+"465
+[v _OLED_Update OLED_Update `(v  1 e 1 0 ]
+{
+"467
+[v OLED_Update@i i `us  1 a 2 3 ]
+"468
+[v OLED_Update@x x `uc  1 a 1 2 ]
+"496
+} 0
+"780
+[v _ssd1306_command ssd1306_command `(v  1 s 1 ssd1306_command ]
+{
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+[v ssd1306_command@command command `uc  1 a 1 wreg ]
+[v ssd1306_command@command command `uc  1 a 1 1 ]
+"788
+} 0
+"64 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\i2c.c
+[v _I2C_Write I2C_Write `(s  1 e 2 0 ]
+{
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Write@data data `uc  1 a 1 wreg ]
+"66
+[v I2C_Write@data data `uc  1 a 1 0 ]
+"71
+} 0
+"34
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"39
+} 0
+"27
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"32
+} 0
+"504 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\ssd1306_oled.c
+[v _OLED_ClearDisplay OLED_ClearDisplay `(v  1 e 1 0 ]
+{
+"507
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 10 ]
+"7
+[v memset@k k `ui  1 a 2 8 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"12 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\i2c.c
+[v _I2C_Init_Master I2C_Init_Master `(v  1 e 1 0 ]
+{
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 wreg ]
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 wreg ]
+"14
+[v I2C_Init_Master@sp_i2c sp_i2c `uc  1 a 1 0 ]
+"25
+} 0
+"18 C:\Users\DELL\MPLABXProjects\OLED_Datos.X\adc.c
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+{
+[v ADC_Read@ch ch `uc  1 a 1 wreg ]
+[v ADC_Read@ch ch `uc  1 a 1 wreg ]
+"20
+[v ADC_Read@ch ch `uc  1 a 1 2 ]
+"30
+} 0
+"11
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+[v ADC_Init@p_ang p_ang `uc  1 a 1 wreg ]
+[v ADC_Init@p_ang p_ang `uc  1 a 1 wreg ]
+"13
+[v ADC_Init@p_ang p_ang `uc  1 a 1 0 ]
+"16
+} 0
